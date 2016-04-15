@@ -1,0 +1,198 @@
+html, body{
+	width:100%;
+	height:100%;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight:400;
+	background:#f0f1f2;
+	color:#293032;
+}
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.text-vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.wrapper{
+	width:960px;
+	margin:0 auto;
+}
+h2{
+	font-size:32px;
+	text-align:center;
+	margin-top:0;
+	/*margin-bottom:50px;*/
+	font-weight:bold;
+}
+h3 {
+    margin-bottom:10px;
+    line-height:1.5;
+}
+.sub{
+	color:#fff;
+	padding-top:26px;
+	padding-left:56px;
+	width:468px;
+	height:291px;
+	background:url(../img/bg_insaid.png) no-repeat;
+}
+.sub b{
+	color:#cac5a0;
+}
+#mlb2-1425361.ml-subscribe-form button{
+	cursor:pointer;
+	transition:.3s;
+	width:203px;
+	height:43px;
+	border:0;
+	background:url(../img/button.png) no-repeat;
+}
+#mlb2-1425361.ml-subscribe-form button:hover{
+	transition:.3s;
+	opacity:0.8;
+}
+.form-control::-webkit-input-placeholder {color:#48525b;}
+.form-control::-moz-placeholder          {color:#48525b;}/* Firefox 19+ */
+.form-control:-moz-placeholder           {color:#48525b;}/* Firefox 18- */
+.form-control:-ms-input-placeholder      {color:#48525b;}
+.form-control{
+	border-radius:0;
+	color:#48525b;
+	height:46px;
+	border:0px solid #e8ecf0;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.0);
+	outline:0;
+}
+.form-control:focus{
+	box-shadow: 0 1px 1px rgba(0,0,0,.0);
+	outline:0;
+}
+.form-control:disabled{
+	background:#fff;
+	cursor:default;
+}
+ #mlb2-1425361,
+    #mlb2-1425361 *,
+    #mlb2-1425361 a:hover,
+    #mlb2-1425361 a:visited,
+    #mlb2-1425361 a:active {
+        overflow: visible;
+        position: static;
+        background: none;
+        border: none;
+        bottom: auto;
+        clear: none;
+        cursor: default;
+        float: none;
+        font-size: medium;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-indent: 0;
+        text-transform: none;
+        visibility: visible;
+        white-space: normal;
+        max-height: none;
+        max-width: none;
+        left: auto;
+        min-height: 0;
+        min-width: 0;
+        right: auto;
+        top: auto;
+        width: auto;
+        z-index: auto;
+        text-shadow: none;
+        box-shadow: none;
+    }
+    
+    #mlb2-1425361 h4 {
+        font-weight: normal;
+    }
+    
+    
+    #mlb2-1425361 .subscribe-form .form-section {
+        /*float: left;*/
+        /*width: 100%;*/
+        margin-bottom: 20px;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section h4 {
+        margin: 0px 0px 15px 0px;
+        padding: 0px!important;
+        color: #27AE60!important;
+        font-family: Arial!important;
+        font-size: 20px!important;
+        line-height: 100%;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section p {
+        line-height: 150%;
+        padding: 0px!important;
+        margin: 0px 0px 0px 0px;
+        font-family: Arial!important;
+        font-size: 13px!important;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section .form-group {
+        margin-bottom: 15px;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section .form-group label {
+        float: left;
+        margin-bottom: 10px;
+        width: 100%;
+        line-height: 100%;
+        font-weight: bold;
+        color: #000000!important;
+        font-family: Arial!important;
+        font-size: 13px!important;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section .checkbox {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section .checkbox label {
+        color: #000000!important;
+        font-family: Arial!important;
+        font-size: 13px!important;
+    }
+    
+    #mlb2-1425361 .subscribe-form .form-section .checkbox input {
+        margin: 0px 5px 0px 0px;
+    }
+    
+    #mlb2-1425361.ml-subscribe-form .form-group .form-control {
+        width: 100%;
+        font-size: 13px;
+        padding: 10px 10px;
+        height: auto;
+        font-family: Arial;
+        border-radius: 5px;
+        border: 2px solid #BDC3C7!important;
+        color: #000000!important;
+        background-color: #FFFFFF!important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        clear: left;
+    }
+   
+    #mlb2-1425361.ml-subscribe-form .form-section.ml-error label {
+        color: red!important;
+    }
+    
+    #mlb2-1425361.ml-subscribe-form .form-group.ml-error label {
+        color: red!important;
+    }
+    
+    #mlb2-1425361.ml-subscribe-form .form-group.ml-error .form-control {
+        border-color: red!important;
+    }

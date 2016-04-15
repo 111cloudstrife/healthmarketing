@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/HelveticaRegular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url(../fonts/HelveticaNeueCyr-Bold.otf) format("opentype");
+}
