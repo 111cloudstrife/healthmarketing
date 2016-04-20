@@ -20,15 +20,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/var/www/u0132319/data/www/healthmarketing.me/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+//define('WP_CACHE', true); //Added by WP-Cache Manager
+//define( 'WPCACHEHOME', '/var/www/u0132319/data/www/healthmarketing.me/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'u0132319_wp940');
 
 /** MySQL database username */
-define('DB_USER', 'u0132319_wp940');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'S)3!sP9A6p');
+define('DB_PASSWORD', 'JbBDmuMMpW1pNKunYkUVdtyF');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
