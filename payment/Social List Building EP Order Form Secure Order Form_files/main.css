@@ -1,0 +1,1069 @@
+/* ==============
+    ALL: Wrapper
+   ============== */
+.video-frame{
+  max-width: 760px;
+	height: auto;
+	margin: 0 auto;
+	border: solid 10px;
+	margin-bottom: 2em;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+input, select, button {
+    max-width: 100%;
+}
+
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body.no-sidebar div.main article {
+    width: 100%;
+}
+
+body.no-sidebar div.main aside {
+    display: none;
+}
+
+article.video h2 {
+    font-size: 1.85em;
+}
+
+article.video h1, article.video h2, article.video h3 {
+    text-align: center;
+}
+
+article.video h2.access-instructions {
+    margin-top: 0;
+}
+
+/* Machine Style */
+
+    body.machine {
+        color: #888;
+        font-size: 1em;
+    }
+
+    .order-form.machine .main.wrapper {
+        border: 1px solid #DADADA;
+        border-radius: 3px;
+        margin: 1em auto 0;
+    }
+
+    .thank-you.machine .wrapper {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    width:100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    padding: 0px 3% 10px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    background: #000;
+}
+
+.footer-container footer {
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container footer a {
+    color: #eee;
+    text-decoration: none;
+}
+
+/* Machine Style */
+
+    body.machine .main aside {
+        padding: 0px 2% 10px;
+    }
+
+    body.machine .footer-container {
+        background: transparent;
+    }
+
+    body.machine .footer-container footer {
+        color: #aaa;
+    }
+
+    body.machine .footer-container footer p {
+        margin-top: 0;
+    }
+
+    body.machine .footer-container footer a {
+        color: #aaa;
+    }
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==============
+   Fonts
+   ============== */
+
+.yellow {
+    background-color: yellow;
+}
+.yellowblock {
+    background-color: yellow;
+    display: block;
+    padding: 5px;
+}
+
+/* ==============
+   Header
+   ============== */
+
+div.header-container {
+    background: url('../img/header.jpg') center center repeat;
+    min-height: 73px;
+}
+div.header-container header h1 {
+    text-indent: -9999px;
+    background: url('../img/digital-marketer-logo.png') center center no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 20px auto;
+    width: 298px;
+    height: 73px;
+    max-height: 100%;
+}
+
+/* Machine Style */
+
+    body.machine div.header-container {
+        background: #fff;
+    }
+
+    body.machine div.header-container header h1 {
+        margin: 15px auto;
+        float: none;
+        background-image: url('../img/digital-marketer-logo-dark.png');
+    }
+
+/* ==============
+   Main Content
+   ============== */
+
+.index article.order-form {
+    background: #fcfcfc;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.index article.order-form form#order-form section header {
+    background: #1B79C2;
+    overflow: hidden;
+    padding: 0 30px;
+}
+
+.index article.order-form form#order-form section header h2 {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(28, 62, 88);
+    margin: .6em 0;
+    text-align: left;
+}
+
+.index article.order-form form#order-form section div.content {
+    padding: 10px;
+}
+
+.index article.order-form form#order-form section div.control-group {
+    clear: both;
+    margin: 10px auto;
+}
+
+.index article.order-form form#order-form section div.control-group label {
+    width: auto;
+    float: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 5px;
+    display: block;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.index article.order-form form#order-form section div.control-group div.controls {
+    width: 100%;
+    float: none;
+}
+
+.index article.order-form form#order-form section div.control-group div.controls input, .index article.order-form form#order-form section div.control-group div.controls textarea {
+    padding: 4px 0 0 4px;
+    width: 100%;
+}
+
+.index article.order-form form#order-form section div.control-group div.controls input::-webkit-input-placeholder {
+   color: #ccc;
+   font-size: .9em;
+   font-style: italic;
+}
+
+.index article.order-form form#order-form section#payment-information div.security-note {
+    padding: 30px 30px 15px;
+    background-color: #dcf0d8;
+}
+
+.index article.order-form form#order-form section#payment-information div.security-note h3 {
+    margin: 0;
+}
+
+.index article.order-form form#order-form section#payment-information div.content {
+    padding: 0;
+}
+
+.index article.order-form form#order-form section#payment-information div.content > div {
+    padding: 10px;
+}
+
+.index article.order-form form#order-form section#payment-information div.content > div.purchase-info {
+    padding: 15px;
+    margin: 0;
+    background: #eaeaea;
+}
+
+.index article.order-form form#order-form section#payment-information div.content div.row div.left {
+    width: 100%;
+    float: left;
+}
+
+.index article.order-form form#order-form section#payment-information div.content div.row div.right {
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.index article.order-form form#order-form section#payment-information div.control-group div.controls a.whats-this {
+    margin: 5px 0;
+    display: block;
+    font-size: .7em;
+    color: #aaa;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.index article.order-form form#order-form section#payment-information div.control-group div.controls div#cvv-popup {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.index article.order-form form#order-form section#payment-information div.content div.total {
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    clear:both;
+}
+
+.index article.order-form form#order-form section#payment-information div.content div.submit {
+    margin: 20px auto 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.index article.order-form form#order-form section#payment-information div.content div.submit div.submit-wrapper input.btn-submit {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.9em;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.66);
+    white-space: normal;
+    height: auto;
+    padding: 15px;
+    background: rgb(61, 158, 61);
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.index article.order-form form#order-form section#payment-information div.content div.submit div.submit-wrapper input.btn-submit:hover {
+    background: rgb(62, 137, 62);
+}
+
+/* Machine Style */
+
+    body.machine.index article.order-form {
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border: 0;
+        border-right: 1px solid #dadada;
+        background: transparent;
+    }
+
+    body.machine.index article.order-form form#order-form section header {
+        background: transparent;
+        padding: 0 25px;
+    }
+
+    body.machine.index article.order-form form#order-form section header h2 {
+        color: #606060;
+        margin: 0;
+        font-size: 1.3em;
+        text-shadow: none;
+    }
+
+    body.machine.index article.order-form form#order-form section div.control-group label {
+        font-family: 'Oswald';
+        color: #606060;
+        font-weight: 300;
+    }
+
+    .index article.order-form form#order-form section#payment-information div.content {
+        padding: 15px 25px;
+    }
+
+    body.machine.index article.order-form form#order-form section#payment-information div.content div.submit div.submit-wrapper input.btn-submit {
+        font-family: 'Oswald';
+        font-weight: 300;
+        text-transform: uppercase;
+        text-shadow: none;
+        width: 100%;
+    }
+
+    body.machine div.box {
+        margin: 0 4px;
+        background: #fff;
+        padding: 15px 20px 20px 20px;
+        border: 1px solid #d9d9d9;
+        clear: both;
+        overflow: auto;
+        -webkit-border: 3px;
+        -moz-border-radius: 3px;
+        -khtml-border: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 1px 2px 2px #eee, inset 0 0 35px #F8F8F8;
+        -khtml-box-shadow: 1px 2px 2px #eee, ,inset 0 0 35px #f8f8f8;
+        -moz-box-shadow: 1px 2px 2px #eee, ,inset 0 0 35px #f8f8f8;
+        -ms-box-shadow: 1px 2px 2px #eee, inset 0 0 35px #f8f8f8;
+        -o-box-shadow: 1px 2px 2px #eee, inset 0 0 35px #f8f8f8;
+        box-shadow: 1px 2px 2px #eee, inset 0 0 35px #F8F8F8;
+    }
+
+    body.machine .box .wide p {
+        line-height: 22px;
+        margin: 18px 40px
+    }
+
+
+/* ==============
+   Sidebar
+   ============== */
+
+aside {
+    
+}
+
+aside img.order-form-stay-put {
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+aside h3 {
+    color: #398ac9;
+}
+
+aside ul.small-checks {    
+    list-style-image: url(../img/check-green.png);
+    padding: 0 0 0 25px;
+}
+
+aside ul.small-checks li {
+    margin-bottom: 12px;
+}
+
+aside p {
+    font-style: italic;
+}
+
+aside p.plain {
+    font-style: normal;
+}
+
+/* Machine Style */
+
+    body.machine aside h3 {
+        color: #6bb327;
+        font-size: 1.1em;
+        font-weight: 400;
+        text-align: left;
+        padding: .3em 0;
+        margin: 0;
+    }
+
+    body.machine aside p {
+        font-size: .8em;
+        margin: .5em 0 1em;
+        font-style: normal;
+    }
+
+    body.machine aside section .item {
+        padding: 0 0 0 43px;
+    }
+
+    body.machine aside section .item.guar {
+        background: url(https://s3-us-west-2.amazonaws.com/dm-followupmachine/icon-sealygold.png) no-repeat 0 1px;
+    }
+
+    body.machine aside section .item.secure {
+        background: url(https://s3-us-west-2.amazonaws.com/dm-followupmachine/icon-lock.png) no-repeat 0 1px;
+    }
+
+    body.machine aside section .item.safe {
+        background: url(https://s3-us-west-2.amazonaws.com/dm-followupmachine/icon-safe.png) no-repeat 0 1px;
+    }
+
+    body.machine aside section .item.phone {
+        background: url(https://s3-us-west-2.amazonaws.com/dm-followupmachine/icon-phone.png) no-repeat -1px 1px;
+    }
+
+
+/* OTO-1 */
+
+div.member-box {
+    max-width: 720px;
+    background-color: #fffccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.member-box div.member-id > div {
+    width: 50%;
+    max-width: 350px;
+    float: left;
+}
+
+div.member-box div.member-id > div.left {
+    text-align: right;
+}
+
+div.member-box div.member-id > div.right {
+    padding-left: 10px;
+}
+
+div.member-box div.member-id > div h3 {
+    margin-bottom: 0px; margin-top: 0px; font-size: 22px;
+}
+
+div.member-box div.member-id > div.right h3 {
+    color: #D90003;
+}
+
+div.oto-headline {
+    margin-left: auto; margin-right: auto; text-align: center;
+}
+
+div.oto-headline h3 {
+    margin: 20px auto 10px;
+    font-size: 2em;
+    line-height: 1.2em;
+    max-width: 75%;
+}
+
+div.ep-boxes div.ep-box {    
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+div.ep-boxes div.ep-box img {
+    width: 100%;
+}
+
+div#sales-box > div {
+    padding: 20px; text-align: left; font-size: 1.1em;
+}
+
+div#sales-box > div > div.membership-type {
+    text-align:center; margin-bottom: 5px; font-weight: bold; font-size: 1.2em;
+}
+
+div#sales-box > div.left {
+    float: left; background-color: #fff;
+}
+
+div#sales-box > div.right {
+    float: right; background-color: #fffccc;
+}
+
+div#no-thanks-box {
+    margin:10px; text-align: center;
+}
+
+div#sales-box div.submit input {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 1.1em;
+    background: #40a953;
+    width: auto;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.19);
+}
+
+
+article.video blockquote {
+    color: #383838;
+    font-size: 14px;
+    line-height: 1.4em;
+    font-style: normal;
+    max-width: 360px;
+    padding: 20px 20px 20px 120px;
+    background-color: #fafeff;
+    border: 1px solid #dee7ec;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative;
+    margin: 20px auto;
+}
+
+article.video blockquote img.ryan-avatar {
+    position: absolute;
+    margin-left: -100px;
+    border: 2px solid #fff;
+    margin-top: 0;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.75);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.75);
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+article.video blockquote p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #777;
+    font-style: italic;
+    margin-top: 0;
+}
+
+article.video blockquote cite {
+    font-weight: 400;
+    margin: 10px 0 0;
+    font-size: 13px;
+    color: #8ea9b3;
+    text-transform: none;
+}
+
+article.video blockquote cite strong {
+    font-weight: 700;
+    color: #35556b;
+}
+
+article.video ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+article.video ul li {
+    background-image: url(../img/check-bullet.png);
+    background-repeat: no-repeat;
+    line-height: 1.6em;
+    padding-left: 44px;
+    min-height: 32px;
+    text-align: left;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+
+article.video a.buy-button {
+    padding:25px 90px;color:#fff;text-decoration:none;font-size:1.1em;display:inline-block;background:#50a73a;border-radius:5px;margin-top:10px;
+}
+
+
+/* OTO 2 */
+
+body.oto2 h3.lto {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 33px;
+    margin-top: 0;
+}
+
+body.oto2 h1.heading {
+    font-size: 60px;
+    line-height: 1;
+}
+
+body.oto2 h2.onedollar {
+    color: red;
+    font-size: 65px;
+    margin: 0;
+    line-height: 1em;
+}
+
+body.oto2 {
+    font-size: 20px;
+}
+
+body.oto2 article h1, body.oto2 article h2, body.oto2 article h3, body.oto2 article h4, body.oto2 article h5, body.oto2 article h6 {
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1em;
+}
+
+body.oto2 article.video ul li {
+    font-weight: normal;
+}
+
+article.video ul.two-free-gifts {
+    padding: 0;
+    margin: 0;
+}
+
+article.video ul.two-free-gifts li {
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+article.video ul.two-free-gifts li h3 {
+    text-align: left;
+}
+
+article.video ul.two-free-gifts li img {
+    max-width: 33%;
+    float:left;
+    margin:1em;
+}
+
+/* THANK YOU */
+
+body.thank-you .wrapper {
+    max-width: 850px;
+}
+
+body.thank-you aside {
+    width: 25%;
+}
+
+body.thank-you article {
+    width: 73%;
+}
+body.thank-you article h1, body.thank-you article h2, body.thank-you article h3, body.thank-you article h4, body.thank-you article h5, body.thank-you article h6 {
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1em;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+/* ========================
+    INTERMEDIATE: Styles
+   ======================== */
+
+    .index article.order-form form#order-form section#payment-information div.content div.row div.left {
+        width: 70%;
+    }
+    
+    .index article.order-form form#order-form section#payment-information div.content div.row div.right {
+        width: 25%;
+        border-left: 1px solid #ccc;
+        height: 180px;
+        line-height: 180px;
+    }
+    .index article.order-form form#order-form section#payment-information div.content div.row div.right img {
+        max-width: 95%;
+    }
+
+    div.ep-boxes div.ep-box {    
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .main {
+        padding: 20px 0;
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .index article.order-form {
+        border-radius: 6px;
+        border: 1px solid #eee;
+    }
+
+    .index article.order-form form#order-form section div.content {
+        padding: 15px 25px;
+    }
+
+    .index article.order-form form#order-form section#payment-information div.content > div {
+        padding: 0;
+    }
+
+    .index article.order-form form#order-form section div.control-group label {
+        width: 25%;
+        float: left;
+        text-align: right;
+        padding-right: 14px;
+    }
+
+    .index article.order-form form#order-form section#payment-information div.control-group label {
+        width: 30%;
+        font-size: 14px;
+    }
+
+    .index article.order-form form#order-form section div.control-group div.controls {
+        width: 75%;
+        float: right;
+    }
+
+    .index article.order-form form#order-form section#payment-information div.control-group div.controls {
+        width: 70%;
+        position: relative;
+    }
+
+    .index article.order-form form#order-form section#payment-information div.content div.card-icons {
+        margin-left: 20%;
+    }
+
+    /* Machine Style */
+
+        body.machine.order-form .main.wrapper {
+            max-width: 850px;
+        }
+
+        body.machine.index article.order-form form#order-form section div.control-group label {
+            width: 30%;
+            text-align: left;
+        }
+
+        body.machine.index article.order-form form#order-form section#payment-information div.control-group label {
+            font-size: 1em;
+        }
+
+        body.machine.index article.order-form form#order-form section div.control-group div.controls {
+            width: 70%;
+        }
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container {
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 62%;
+    }
+
+    .main aside {
+        float: right;
+        width: 38%;
+        margin-top: 0;
+    }
+    
+    body.left-sidebar div.main article {
+        float: right;
+    }
+    
+    body.left-sidebar div.main aside {
+        float: left;
+    }
+
+/* ============
+    WIDE: Styles
+   ============ */
+
+
+    div#sales-box > div {
+        width: 50%;
+    }
+
+    div#text-area div.oto1-left {
+        width:50%;float:left;
+    }
+
+    div#text-area div.oto1-right {
+        width: 50%; float:right;
+    }
+}
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 960px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+    body.machine.order-form .main.wrapper {
+        width: 875px;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+div.opt-in-button iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: auto;
+}

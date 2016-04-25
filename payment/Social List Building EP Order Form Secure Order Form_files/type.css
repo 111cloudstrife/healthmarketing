@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    font-family: "Lato", Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed";
+}
+body.machine h1, body.machine h2, body.machine h3, body.machine h4, body.machine h5, body.machine h6 {
+    font-family: "Oswald";
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
