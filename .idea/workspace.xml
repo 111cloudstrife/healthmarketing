@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71abe1b0-eb82-45de-833f-aa5b02283aae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063894-350440-24x30-phone16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063894-850477-300x74-dmlogodark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063895-913231-37x36-DMGearBullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063895-913231-37x37-DMGearBullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063896-1444517-256x390-10DayTrafficPlanTile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063896-1467989-612x261-TenDollarBill.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1460063897-881216-126x150-286117289381125x148cosmoarrow3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/0(1)" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/031a761e2b05d2bed213fd1f07412755.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/0f3c19bb1c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/6658(1).js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/6658.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/a5cb880a745154a6a1a45f3465215dfd.js.jgz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/analytics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/bat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/ecommerce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/fbds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/fbevents.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/gtm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/hotjar-48783.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/j.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/linkid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/loading_circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/modules-41583c52937b4bb5735122fea5d73169.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/nr-918.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/oi-yi7E1nh9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get-traffic-plan/css/trackfu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fb-ad-templates/index.html" afterPath="$PROJECT_DIR$/fb-ad-templates/index.html" />
     </list>
     <ignored path="healthmarketing.me.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +57,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yoga-for-two-dollars/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="861">
               <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fb-ad-templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-2802">
               <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,6 +95,56 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get-traffic-plan/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0(1)" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/0(1)">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="031a761e2b05d2bed213fd1f07412755.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/031a761e2b05d2bed213fd1f07412755.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/0">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -76,6 +155,7 @@
       <list>
         <option value="$PROJECT_DIR$/yoga-for-two-dollars/index.html" />
         <option value="$PROJECT_DIR$/fb-ad-templates/index.html" />
+        <option value="$PROJECT_DIR$/get-traffic-plan/index.html" />
       </list>
     </option>
   </component>
@@ -122,7 +202,56 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="get-traffic-plan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthmarketing.me" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="get-traffic-plan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -180,7 +309,7 @@
       <updated>1461237550121</updated>
       <workItem from="1461237551447" duration="11135000" />
       <workItem from="1461311667480" duration="24000" />
-      <workItem from="1461561851494" duration="6813000" />
+      <workItem from="1461561851494" duration="7936000" />
     </task>
     <task id="LOCAL-00001" summary="yoga-for-two-dollars">
       <created>1461243264063</created>
@@ -217,17 +346,24 @@
       <option name="project" value="LOCAL" />
       <updated>1461582546457</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fb-ad-templates">
+      <created>1461582942439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1461582942439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17972000" />
+    <option name="totallyTimeSpent" value="19095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2621514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2621514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -269,9 +405,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fb-ad-templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2802">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1461582906259" expanded="true" signature="22662:23041" placeholder="..." />
+            <marker date="1461582906259" expanded="false" signature="22799:22812" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yoga-for-two-dollars/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="861">
           <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -290,19 +450,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fb-ad-templates/index.html">
+    <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/0(1)">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1461582906259" expanded="true" signature="22662:23041" placeholder="..." />
-            <marker date="1461582906259" expanded="false" signature="22799:22812" placeholder="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-traffic-plan/css/031a761e2b05d2bed213fd1f07412755.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-traffic-plan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
