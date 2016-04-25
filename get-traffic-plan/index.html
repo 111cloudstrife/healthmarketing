@@ -1,0 +1,4107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://www.digitalmarketer.com/lp/fat/get-traffic-plan -->
+<html style="height: 3991px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <script type="text/javascript" src="css/0f3c19bb1c"></script>
+    <script src="css/nr-918.min.js"></script>
+    <script type="text/javascript" async="" src="css/ecommerce.js"></script>
+    <script type="text/javascript" async="" src="css/linkid.js"></script>
+    <script src="css/bat.js" async=""></script>
+    <script async="" src="css/fbevents.js"></script>
+    <script type="text/javascript" async="" src="css/6658.js"></script>
+    <script type="text/javascript" async="" src="css/analytics.js"></script>
+    <script src="css/6658(1).js" async="" type="text/javascript"></script>
+    <script async="" src="css/fbds.js"></script>
+    <script async="" src="css/gtm.js"></script>
+    <script type="text/javascript">(window.NREUM || (NREUM = {})).loader_config = {xpid: "Ug4FVlRbGwABVFZSDgA="};
+    window.NREUM || (NREUM = {}), __nr_require = function (t, e, n) {
+        function r(n) {
+            if (!e[n]) {
+                var o = e[n] = {exports: {}};
+                t[n][0].call(o.exports, function (e) {
+                    var o = t[n][1][e];
+                    return r(o || e)
+                }, o, o.exports)
+            }
+            return e[n].exports
+        }
+
+        if ("function" == typeof __nr_require)return __nr_require;
+        for (var o = 0; o < n.length; o++)r(n[o]);
+        return r
+    }({
+        1: [function (t, e, n) {
+            function r(t) {
+                try {
+                    s.console && console.log(t)
+                } catch (e) {
+                }
+            }
+
+            var o, i = t("ee"), a = t(14), s = {};
+            try {
+                o = localStorage.getItem("__nr_flags").split(","), console && "function" == typeof console.log && (s.console = !0, -1 !== o.indexOf("dev") && (s.dev = !0), -1 !== o.indexOf("nr_dev") && (s.nrDev = !0))
+            } catch (c) {
+            }
+            s.nrDev && i.on("internal-error", function (t) {
+                r(t.stack)
+            }), s.dev && i.on("fn-err", function (t, e, n) {
+                r(n.stack)
+            }), s.dev && (r("NR AGENT IN DEVELOPMENT MODE"), r("flags: " + a(s, function (t, e) {
+                        return t
+                    }).join(", ")))
+        }, {}], 2: [function (t, e, n) {
+            function r(t, e, n, r, o) {
+                try {
+                    d ? d -= 1 : i("err", [o || new UncaughtException(t, e, n)])
+                } catch (s) {
+                    try {
+                        i("ierr", [s, (new Date).getTime(), !0])
+                    } catch (c) {
+                    }
+                }
+                return "function" == typeof f ? f.apply(this, a(arguments)) : !1
+            }
+
+            function UncaughtException(t, e, n) {
+                this.message = t || "Uncaught error with no additional information", this.sourceURL = e, this.line = n
+            }
+
+            function o(t) {
+                i("err", [t, (new Date).getTime()])
+            }
+
+            var i = t("handle"), a = t(15), s = t("ee"), c = t("loader"), f = window.onerror, u = !1, d = 0;
+            c.features.err = !0, t(1), window.onerror = r;
+            try {
+                throw new Error
+            } catch (l) {
+                "stack" in l && (t(8), t(7), "addEventListener" in window && t(5), c.xhrWrappable && t(9), u = !0)
+            }
+            s.on("fn-start", function (t, e, n) {
+                u && (d += 1)
+            }), s.on("fn-err", function (t, e, n) {
+                u && (this.thrown = !0, o(n))
+            }), s.on("fn-end", function () {
+                u && !this.thrown && d > 0 && (d -= 1)
+            }), s.on("internal-error", function (t) {
+                i("ierr", [t, (new Date).getTime(), !0])
+            })
+        }, {}], 3: [function (t, e, n) {
+            t("loader").features.ins = !0
+        }, {}], 4: [function (t, e, n) {
+            function r(t) {
+            }
+
+            if (window.performance && window.performance.timing && window.performance.getEntriesByType) {
+                var o = t("ee"), i = t("handle"), a = t(8), s = t(7);
+                t("loader").features.stn = !0, t(6);
+                var c = NREUM.o.EV;
+                o.on("fn-start", function (t, e) {
+                    var n = t[0];
+                    n instanceof c && (this.bstStart = Date.now())
+                }), o.on("fn-end", function (t, e) {
+                    var n = t[0];
+                    n instanceof c && i("bst", [n, e, this.bstStart, Date.now()])
+                }), a.on("fn-start", function (t, e, n) {
+                    this.bstStart = Date.now(), this.bstType = n
+                }), a.on("fn-end", function (t, e) {
+                    i("bstTimer", [e, this.bstStart, Date.now(), this.bstType])
+                }), s.on("fn-start", function () {
+                    this.bstStart = Date.now()
+                }), s.on("fn-end", function (t, e) {
+                    i("bstTimer", [e, this.bstStart, Date.now(), "requestAnimationFrame"])
+                }), o.on("pushState-start", function (t) {
+                    this.time = Date.now(), this.startPath = location.pathname + location.hash
+                }), o.on("pushState-end", function (t) {
+                    i("bstHist", [location.pathname + location.hash, this.startPath, this.time])
+                }), "addEventListener" in window.performance && (window.performance.clearResourceTimings ? window.performance.addEventListener("resourcetimingbufferfull", function (t) {
+                    i("bstResource", [window.performance.getEntriesByType("resource")]), window.performance.clearResourceTimings()
+                }, !1) : window.performance.addEventListener("webkitresourcetimingbufferfull", function (t) {
+                    i("bstResource", [window.performance.getEntriesByType("resource")]), window.performance.webkitClearResourceTimings()
+                }, !1)), document.addEventListener("scroll", r, !1), document.addEventListener("keypress", r, !1), document.addEventListener("click", r, !1)
+            }
+        }, {}], 5: [function (t, e, n) {
+            function r(t) {
+                for (var e = t; e && !e.hasOwnProperty(u);)e = Object.getPrototypeOf(e);
+                e && o(e)
+            }
+
+            function o(t) {
+                s.inPlace(t, [u, d], "-", i)
+            }
+
+            function i(t, e) {
+                return t[1]
+            }
+
+            var a = t("ee").get("events"), s = t(16)(a), c = t("gos"), f = XMLHttpRequest, u = "addEventListener", d = "removeEventListener";
+            e.exports = a, "getPrototypeOf" in Object ? (r(document), r(window), r(f.prototype)) : f.prototype.hasOwnProperty(u) && (o(window), o(f.prototype)), a.on(u + "-start", function (t, e) {
+                if (t[1]) {
+                    var n = t[1];
+                    if ("function" == typeof n) {
+                        var r = c(n, "nr@wrapped", function () {
+                            return s(n, "fn-", null, n.name || "anonymous")
+                        });
+                        this.wrapped = t[1] = r
+                    } else"function" == typeof n.handleEvent && s.inPlace(n, ["handleEvent"], "fn-")
+                }
+            }), a.on(d + "-start", function (t) {
+                var e = this.wrapped;
+                e && (t[1] = e)
+            })
+        }, {}], 6: [function (t, e, n) {
+            var r = t("ee").get("history"), o = t(16)(r);
+            e.exports = r, o.inPlace(window.history, ["pushState", "replaceState"], "-")
+        }, {}], 7: [function (t, e, n) {
+            var r = t("ee").get("raf"), o = t(16)(r);
+            e.exports = r, o.inPlace(window, ["requestAnimationFrame", "mozRequestAnimationFrame", "webkitRequestAnimationFrame", "msRequestAnimationFrame"], "raf-"), r.on("raf-start", function (t) {
+                t[0] = o(t[0], "fn-")
+            })
+        }, {}], 8: [function (t, e, n) {
+            function r(t, e, n) {
+                t[0] = a(t[0], "fn-", null, n)
+            }
+
+            function o(t, e, n) {
+                this.method = n, this.timerDuration = "number" == typeof t[1] ? t[1] : 0, t[0] = a(t[0], "fn-", this, n)
+            }
+
+            var i = t("ee").get("timer"), a = t(16)(i);
+            e.exports = i, a.inPlace(window, ["setTimeout", "setImmediate"], "setTimer-"), a.inPlace(window, ["setInterval"], "setInterval-"), a.inPlace(window, ["clearTimeout", "clearImmediate"], "clearTimeout-"), i.on("setInterval-start", r), i.on("setTimer-start", o)
+        }, {}], 9: [function (t, e, n) {
+            function r(t, e) {
+                d.inPlace(e, ["onreadystatechange"], "fn-", s)
+            }
+
+            function o() {
+                var t = this, e = u.context(t);
+                t.readyState > 3 && !e.resolved && (e.resolved = !0, u.emit("xhr-resolved", [], t)), d.inPlace(t, v, "fn-", s)
+            }
+
+            function i(t) {
+                w.push(t), h && (g = -g, b.data = g)
+            }
+
+            function a() {
+                for (var t = 0; t < w.length; t++)r([], w[t]);
+                w.length && (w = [])
+            }
+
+            function s(t, e) {
+                return e
+            }
+
+            function c(t, e) {
+                for (var n in t)e[n] = t[n];
+                return e
+            }
+
+            t(5);
+            var f = t("ee"), u = f.get("xhr"), d = t(16)(u), l = NREUM.o, p = l.XHR, h = l.MO, m = "readystatechange", v = ["onload", "onerror", "onabort", "onloadstart", "onloadend", "onprogress", "ontimeout"], w = [];
+            e.exports = u;
+            var y = window.XMLHttpRequest = function (t) {
+                var e = new p(t);
+                try {
+                    u.emit("new-xhr", [e], e), e.addEventListener(m, o, !1)
+                } catch (n) {
+                    try {
+                        u.emit("internal-error", [n])
+                    } catch (r) {
+                    }
+                }
+                return e
+            };
+            if (c(p, y), y.prototype = p.prototype, d.inPlace(y.prototype, ["open", "send"], "-xhr-", s), u.on("send-xhr-start", function (t, e) {
+                        r(t, e), i(e)
+                    }), u.on("open-xhr-start", r), h) {
+                var g = 1, b = document.createTextNode(g);
+                new h(a).observe(b, {characterData: !0})
+            } else f.on("fn-end", function (t) {
+                t[0] && t[0].type === m || a()
+            })
+        }, {}], 10: [function (t, e, n) {
+            function r(t) {
+                var e = this.params, n = this.metrics;
+                if (!this.ended) {
+                    this.ended = !0;
+                    for (var r = 0; l > r; r++)t.removeEventListener(d[r], this.listener, !1);
+                    if (!e.aborted) {
+                        if (n.duration = (new Date).getTime() - this.startTime, 4 === t.readyState) {
+                            e.status = t.status;
+                            var i = o(t, this.lastSize);
+                            if (i && (n.rxSize = i), this.sameOrigin) {
+                                var a = t.getResponseHeader("X-NewRelic-App-Data");
+                                a && (e.cat = a.split(", ").pop())
+                            }
+                        } else e.status = 0;
+                        n.cbTime = this.cbTime, u.emit("xhr-done", [t], t), c("xhr", [e, n, this.startTime])
+                    }
+                }
+            }
+
+            function o(t, e) {
+                var n = t.responseType;
+                if ("json" === n && null !== e)return e;
+                var r = "arraybuffer" === n || "blob" === n || "json" === n ? t.response : t.responseText;
+                return i(r)
+            }
+
+            function i(t) {
+                if ("string" == typeof t && t.length)return t.length;
+                if ("object" == typeof t) {
+                    if ("undefined" != typeof ArrayBuffer && t instanceof ArrayBuffer && t.byteLength)return t.byteLength;
+                    if ("undefined" != typeof Blob && t instanceof Blob && t.size)return t.size;
+                    if (!("undefined" != typeof FormData && t instanceof FormData))try {
+                        return JSON.stringify(t).length
+                    } catch (e) {
+                        return
+                    }
+                }
+            }
+
+            function a(t, e) {
+                var n = f(e), r = t.params;
+                r.host = n.hostname + ":" + n.port, r.pathname = n.pathname, t.sameOrigin = n.sameOrigin
+            }
+
+            var s = t("loader");
+            if (s.xhrWrappable) {
+                var c = t("handle"), f = t(11), u = t("ee"), d = ["load", "error", "abort", "timeout"], l = d.length, p = t("id"), h = t(13), m = window.XMLHttpRequest;
+                s.features.xhr = !0, t(9), u.on("new-xhr", function (t) {
+                    var e = this;
+                    e.totalCbs = 0, e.called = 0, e.cbTime = 0, e.end = r, e.ended = !1, e.xhrGuids = {}, e.lastSize = null, h && (h > 34 || 10 > h) || window.opera || t.addEventListener("progress", function (t) {
+                        e.lastSize = t.loaded
+                    }, !1)
+                }), u.on("open-xhr-start", function (t) {
+                    this.params = {method: t[0]}, a(this, t[1]), this.metrics = {}
+                }), u.on("open-xhr-end", function (t, e) {
+                    "loader_config" in NREUM && "xpid" in NREUM.loader_config && this.sameOrigin && e.setRequestHeader("X-NewRelic-ID", NREUM.loader_config.xpid)
+                }), u.on("send-xhr-start", function (t, e) {
+                    var n = this.metrics, r = t[0], o = this;
+                    if (n && r) {
+                        var a = i(r);
+                        a && (n.txSize = a)
+                    }
+                    this.startTime = (new Date).getTime(), this.listener = function (t) {
+                        try {
+                            "abort" === t.type && (o.params.aborted = !0), ("load" !== t.type || o.called === o.totalCbs && (o.onloadCalled || "function" != typeof e.onload)) && o.end(e)
+                        } catch (n) {
+                            try {
+                                u.emit("internal-error", [n])
+                            } catch (r) {
+                            }
+                        }
+                    };
+                    for (var s = 0; l > s; s++)e.addEventListener(d[s], this.listener, !1)
+                }), u.on("xhr-cb-time", function (t, e, n) {
+                    this.cbTime += t, e ? this.onloadCalled = !0 : this.called += 1, this.called !== this.totalCbs || !this.onloadCalled && "function" == typeof n.onload || this.end(n)
+                }), u.on("xhr-load-added", function (t, e) {
+                    var n = "" + p(t) + !!e;
+                    this.xhrGuids && !this.xhrGuids[n] && (this.xhrGuids[n] = !0, this.totalCbs += 1)
+                }), u.on("xhr-load-removed", function (t, e) {
+                    var n = "" + p(t) + !!e;
+                    this.xhrGuids && this.xhrGuids[n] && (delete this.xhrGuids[n], this.totalCbs -= 1)
+                }), u.on("addEventListener-end", function (t, e) {
+                    e instanceof m && "load" === t[0] && u.emit("xhr-load-added", [t[1], t[2]], e)
+                }), u.on("removeEventListener-end", function (t, e) {
+                    e instanceof m && "load" === t[0] && u.emit("xhr-load-removed", [t[1], t[2]], e)
+                }), u.on("fn-start", function (t, e, n) {
+                    e instanceof m && ("onload" === n && (this.onload = !0), ("load" === (t[0] && t[0].type) || this.onload) && (this.xhrCbStart = (new Date).getTime()))
+                }), u.on("fn-end", function (t, e) {
+                    this.xhrCbStart && u.emit("xhr-cb-time", [(new Date).getTime() - this.xhrCbStart, this.onload, e], e)
+                })
+            }
+        }, {}], 11: [function (t, e, n) {
+            e.exports = function (t) {
+                var e = document.createElement("a"), n = window.location, r = {};
+                e.href = t, r.port = e.port;
+                var o = e.href.split("://");
+                !r.port && o[1] && (r.port = o[1].split("/")[0].split("@").pop().split(":")[1]), r.port && "0" !== r.port || (r.port = "https" === o[0] ? "443" : "80"), r.hostname = e.hostname || n.hostname, r.pathname = e.pathname, r.protocol = o[0], "/" !== r.pathname.charAt(0) && (r.pathname = "/" + r.pathname);
+                var i = !e.protocol || ":" === e.protocol || e.protocol === n.protocol, a = e.hostname === document.domain && e.port === n.port;
+                return r.sameOrigin = i && (!e.hostname || a), r
+            }
+        }, {}], 12: [function (t, e, n) {
+            function r(t, e) {
+                return function () {
+                    o(t, [(new Date).getTime()].concat(a(arguments)), null, e)
+                }
+            }
+
+            var o = t("handle"), i = t(14), a = t(15);
+            "undefined" == typeof window.newrelic && (newrelic = NREUM);
+            var s = ["setPageViewName", "addPageAction", "setCustomAttribute", "finished", "addToTrace", "inlineHit"], c = ["addPageAction"], f = "api-";
+            i(s, function (t, e) {
+                newrelic[e] = r(f + e, "api")
+            }), i(c, function (t, e) {
+                newrelic[e] = r(f + e)
+            }), e.exports = newrelic, newrelic.noticeError = function (t) {
+                "string" == typeof t && (t = new Error(t)), o("err", [t, (new Date).getTime()])
+            }
+        }, {}], 13: [function (t, e, n) {
+            var r = 0, o = navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);
+            o && (r = +o[1]), e.exports = r
+        }, {}], 14: [function (t, e, n) {
+            function r(t, e) {
+                var n = [], r = "", i = 0;
+                for (r in t)o.call(t, r) && (n[i] = e(r, t[r]), i += 1);
+                return n
+            }
+
+            var o = Object.prototype.hasOwnProperty;
+            e.exports = r
+        }, {}], 15: [function (t, e, n) {
+            function r(t, e, n) {
+                e || (e = 0), "undefined" == typeof n && (n = t ? t.length : 0);
+                for (var r = -1, o = n - e || 0, i = Array(0 > o ? 0 : o); ++r < o;)i[r] = t[e + r];
+                return i
+            }
+
+            e.exports = r
+        }, {}], 16: [function (t, e, n) {
+            function r(t) {
+                return !(t && "function" == typeof t && t.apply && !t[a])
+            }
+
+            var o = t("ee"), i = t(15), a = "nr@original", s = Object.prototype.hasOwnProperty, c = !1;
+            e.exports = function (t) {
+                function e(t, e, n, o) {
+                    function nrWrapper() {
+                        var r, a, s, c;
+                        try {
+                            a = this, r = i(arguments), s = "function" == typeof n ? n(r, a) : n || {}
+                        } catch (u) {
+                            d([u, "", [r, a, o], s])
+                        }
+                        f(e + "start", [r, a, o], s);
+                        try {
+                            return c = t.apply(a, r)
+                        } catch (l) {
+                            throw f(e + "err", [r, a, l], s), l
+                        } finally {
+                            f(e + "end", [r, a, c], s)
+                        }
+                    }
+
+                    return r(t) ? t : (e || (e = ""), nrWrapper[a] = t, u(t, nrWrapper), nrWrapper)
+                }
+
+                function n(t, n, o, i) {
+                    o || (o = "");
+                    var a, s, c, f = "-" === o.charAt(0);
+                    for (c = 0; c < n.length; c++)s = n[c], a = t[s], r(a) || (t[s] = e(a, f ? s + o : o, i, s))
+                }
+
+                function f(e, n, r) {
+                    if (!c) {
+                        c = !0;
+                        try {
+                            t.emit(e, n, r)
+                        } catch (o) {
+                            d([o, e, n, r])
+                        }
+                        c = !1
+                    }
+                }
+
+                function u(t, e) {
+                    if (Object.defineProperty && Object.keys)try {
+                        var n = Object.keys(t);
+                        return n.forEach(function (n) {
+                            Object.defineProperty(e, n, {
+                                get: function () {
+                                    return t[n]
+                                }, set: function (e) {
+                                    return t[n] = e, e
+                                }
+                            })
+                        }), e
+                    } catch (r) {
+                        d([r])
+                    }
+                    for (var o in t)s.call(t, o) && (e[o] = t[o]);
+                    return e
+                }
+
+                function d(e) {
+                    try {
+                        t.emit("internal-error", e)
+                    } catch (n) {
+                    }
+                }
+
+                return t || (t = o), e.inPlace = n, e.flag = a, e
+            }
+        }, {}], ee: [function (t, e, n) {
+            function r() {
+            }
+
+            function o(t) {
+                function e(t) {
+                    return t && t instanceof r ? t : t ? s(t, a, i) : i()
+                }
+
+                function n(n, r, o) {
+                    t && t(n, r, o);
+                    for (var i = e(o), a = l(n), s = a.length, c = 0; s > c; c++)a[c].apply(i, r);
+                    var u = f[v[n]];
+                    return u && u.push([w, n, r, i]), i
+                }
+
+                function d(t, e) {
+                    m[t] = l(t).concat(e)
+                }
+
+                function l(t) {
+                    return m[t] || []
+                }
+
+                function p(t) {
+                    return u[t] = u[t] || o(n)
+                }
+
+                function h(t, e) {
+                    c(t, function (t, n) {
+                        e = e || "feature", v[n] = e, e in f || (f[e] = [])
+                    })
+                }
+
+                var m = {}, v = {}, w = {on: d, emit: n, get: p, listeners: l, context: e, buffer: h};
+                return w
+            }
+
+            function i() {
+                return new r
+            }
+
+            var a = "nr@context", s = t("gos"), c = t(14), f = {}, u = {}, d = e.exports = o();
+            d.backlog = f
+        }, {}], gos: [function (t, e, n) {
+            function r(t, e, n) {
+                if (o.call(t, e))return t[e];
+                var r = n();
+                if (Object.defineProperty && Object.keys)try {
+                    return Object.defineProperty(t, e, {value: r, writable: !0, enumerable: !1}), r
+                } catch (i) {
+                }
+                return t[e] = r, r
+            }
+
+            var o = Object.prototype.hasOwnProperty;
+            e.exports = r
+        }, {}], handle: [function (t, e, n) {
+            function r(t, e, n, r) {
+                o.buffer([t], r), o.emit(t, e, n)
+            }
+
+            var o = t("ee").get("handle");
+            e.exports = r, r.ee = o
+        }, {}], id: [function (t, e, n) {
+            function r(t) {
+                var e = typeof t;
+                return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : a(t, i, function () {
+                    return o++
+                })
+            }
+
+            var o = 1, i = "nr@id", a = t("gos");
+            e.exports = r
+        }, {}], loader: [function (t, e, n) {
+            function r() {
+                if (!m++) {
+                    var t = h.info = NREUM.info, e = u.getElementsByTagName("script")[0];
+                    if (t && t.licenseKey && t.applicationID && e) {
+                        c(l, function (e, n) {
+                            t[e] || (t[e] = n)
+                        });
+                        var n = "https" === d.split(":")[0] || t.sslForHttp;
+                        h.proto = n ? "https://" : "http://", s("mark", ["onload", a()], null, "api");
+                        var r = u.createElement("script");
+                        r.src = h.proto + t.agent, e.parentNode.insertBefore(r, e)
+                    }
+                }
+            }
+
+            function o() {
+                "complete" === u.readyState && i()
+            }
+
+            function i() {
+                s("mark", ["domContent", a()], null, "api")
+            }
+
+            function a() {
+                return (new Date).getTime()
+            }
+
+            var s = t("handle"), c = t(14), f = window, u = f.document;
+            NREUM.o = {
+                ST: setTimeout,
+                CT: clearTimeout,
+                XHR: f.XMLHttpRequest,
+                REQ: f.Request,
+                EV: f.Event,
+                PR: f.Promise,
+                MO: f.MutationObserver
+            }, t(12);
+            var d = "" + location, l = {
+                beacon: "bam.nr-data.net",
+                errorBeacon: "bam.nr-data.net",
+                agent: "js-agent.newrelic.com/nr-918.min.js"
+            }, p = window.XMLHttpRequest && XMLHttpRequest.prototype && XMLHttpRequest.prototype.addEventListener && !/CriOS/.test(navigator.userAgent), h = e.exports = {
+                offset: a(),
+                origin: d,
+                features: {},
+                xhrWrappable: p
+            };
+            u.addEventListener ? (u.addEventListener("DOMContentLoaded", i, !1), f.addEventListener("load", r, !1)) : (u.attachEvent("onreadystatechange", o), f.attachEvent("onload", r)), s("mark", ["firstbyte", a()], null, "api");
+            var m = 0
+        }, {}]
+    }, {}, ["loader", 2, 10, 4, 3]);</script>
+
+    <title>$10-в-День Траффик План</title>
+
+    <meta name="description" content="How To Build or Grow ANY Business For Just $10 A Day...
+">
+    <meta name="keywords" content="$10 Day Traffic Plan, Digital Marketer Traffic Plan, Digital Marketer Traffic">
+
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The $10/Day Traffic Plan">
+    <meta property="og:description" content="How To Build or Grow ANY Business For Just $10 A Day...
+">
+    <meta property="og:site_name" content="The $10/Day Traffic Plan">
+
+
+    <meta property="og:image" content="http://dfsm9194vna0o.cloudfront.net/1444517-0-10DayTrafficPlanTile.jpg">
+    <meta property="og:image:secure_url"
+          content="https://dfsm9194vna0o.cloudfront.net/1444517-0-10DayTrafficPlanTile.jpg">
+
+    <!-- font injector -->
+    <link type="text/css" rel="stylesheet" media="screen, print" href="css/1.css"><!-- end -->
+    <!--<link type="text/css" rel="stylesheet" media="screen, print" href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <style type="text/css" media="screen">
+        .page-element .btn,
+        .page-element .contents,
+        .page-element.widget-form form,
+        .page-element.widget-form form input,
+        .page-element.widget-form form textarea,
+        .page-element.widget-form form select,
+        .page-element.widget-form form label {
+            font-family: Lato;
+            font-weight: 400;
+        }
+
+        .page-element.widget-headline .contents h1,
+        .page-element.widget-headline .contents h2,
+        .page-element.widget-headline .contents h3,
+        .page-element.widget-headline .contents h4,
+        .page-element.widget-headline .contents h5,
+        .page-element.widget-headline .contents h6 {
+            font-family: Lato;
+            font-weight: 400;
+        }
+
+        [id^=___plusone] {
+            width: 51px !important;
+        }
+
+        div.social.lines [id^=___plusone] {
+            width: 62px !important;
+        }
+
+        div.social.lines span[class^=IN-widget] {
+            min-width: 70px !important;
+        }
+
+        div.social.buttons [id^=___plusone] {
+            width: 36px !important;
+        }
+
+        div.social.buttons div[class^=fb-like] {
+            width: 58px !important;
+        }
+
+        div.social.tiles [id^=___plusone] {
+            height: 63px !important;
+            margin-top: 2px !important;
+        }
+
+        div.social.tiles .fb-like iframe {
+            margin-top: 1px !important;
+        }
+
+        .widget-testimonial.style-1 .contents div.testimonial-text {
+            margin-top: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .notification > .notification-inner {
+                width: auto;
+                position: fixed;
+                top: 40%;
+                left: 1em !important;
+                right: 1em !important;
+                font-size: 24px;
+            }
+        }
+
+        /* Safari only fix */
+        @media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) { {
+            .widget-form .select-outer select {
+                padding-left: 10px;
+            }
+
+            .widget-form.mobile-form .select-outer select {
+                padding-left: 10px;
+            }
+        }
+
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="css/031a761e2b05d2bed213fd1f07412755.css" media="screen">
+
+    <script type="text/javascript" data-cfasync="false" src="css/a5cb880a745154a6a1a45f3465215dfd.js.jgz"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" id="mobile-viewport">
+    <script type="text/javascript" data-cfasync="false"
+            class="instapage-noscrap">var ijQuery = jQuery.noConflict(true);</script>
+    <script type="text/javascript" data-cfasync="false" class="instapage-noscrap">
+        var $ = ijQuery;
+        var jQuery = ijQuery;
+        window.__page_id = 942008;
+        window.__version = 14;
+        window.__variant = 'A';
+        window.__page_domain = '//www.digitalmarketer.com';
+        window.__instapage_services = '//app.instapage.com';
+        window.__instapage_proxy_services = '//www.digitalmarketer.com/lp/wp/instapage-proxy-services?url=';
+        window.__preview = false;
+        window.__facebook = false;
+        window.__page_type = 2;
+        window.__mobile_version = 2;
+
+        var page_version = 14;
+
+        var _Translate = new Translate();
+
+        if (ijQuery === 'undefined') {
+            var ijQuery = jQuery;
+        }
+
+        ijQuery(document).ready(function () {
+
+            try {
+                ijQuery('input, textarea').placeholder();
+            }
+            catch (e) {
+            }
+        });
+
+        ijQuery(window).load(function () {
+            var notification_loader;
+
+            ijQuery('body').hide().show();
+
+            notification_loader = ijQuery('.notification-loader');
+            notification_loader.attr('src', notification_loader.attr('rel'));
+        });
+
+        _Translate.set("Problem loading google map", "Problem loading google map");
+
+        is_new_mobile_visible = function () {
+            if (!window.matchMedia) {
+                return false;
+            }
+            return window.matchMedia('screen and (max-width: 620px), screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5)').matches;
+        }
+    </script>
+
+
+    <link rel="shortcut icon" href="http://dfsm9194vna0o.cloudfront.net/855187-0-DMGearBullet.png" type="image/ico">
+
+
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+
+        ;
+    </style>
+    <script type="text/javascript" data-cfasync="false">
+
+        setTimeout(function () {
+            "use strict";
+            try {
+                var body = document.body;
+                var html = document.documentElement;
+                var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+                html.style.setProperty('height', height + 'px');
+            }
+            catch (e) {
+            }
+        }, 1);
+    </script>
+
+    <style type="text/css">
+        body {
+            background-color: #ffffff;
+
+            background-position: top left;
+
+            background-repeat: repeat;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+        }
+
+        .page .page-block .block-inner {
+            background-color: transparent;
+        }
+    </style>
+
+    <style type="text/css">
+
+
+        #element-2 {
+            height: 25px;
+            width: 198px;
+            left: 288px;
+            top: 17px;
+            z-index: 3;
+        }
+
+        #element-2 p, #element-2 ul, #element-2 ol, #element-2 h1 {
+            font-size: 18px;
+            color: rgb(0, 0, 0);
+            line-height: 25px;
+            text-align: left;
+        }
+
+        #element-3 {
+            height: 77px;
+            width: 658px;
+            left: 290px;
+            top: 55px;
+            z-index: 4;
+        }
+
+        #element-3 p, #element-3 ul, #element-3 ol, #element-3 h1 {
+            font-size: 55px;
+            line-height: 55px;
+            text-align: left;
+        }
+
+        #element-4 {
+            height: 72px;
+            width: 664px;
+            left: 289px;
+            top: 140px;
+            z-index: 5;
+        }
+
+        #element-4 p, #element-4 ul, #element-4 ol, #element-4 h1 {
+            font-size: 26px;
+            line-height: 36px;
+            text-align: left;
+        }
+
+        #element-24 {
+            height: 30px;
+            width: 24px;
+            left: 760px;
+            top: 36px;
+            z-index: 6;
+        }
+
+        #element-25 {
+            height: 28px;
+            width: 177px;
+            left: 783px;
+            top: 35px;
+            z-index: 7;
+        }
+
+        #element-25 p, #element-25 ul, #element-25 ol, #element-25 h1 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        #element-31 {
+            height: 20px;
+            width: 369px;
+            left: 565px;
+            top: 29px;
+            z-index: 8;
+        }
+
+        #element-31 p, #element-31 ul, #element-31 ol, #element-31 h1 {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        #element-36 {
+            height: 74px;
+            width: 300px;
+            left: 1px;
+            top: 12px;
+            z-index: 9;
+        }
+
+        #element-119 {
+            height: 20px;
+            width: 371px;
+            left: 4px;
+            top: 29px;
+            z-index: 10;
+        }
+
+        #element-119 p, #element-119 ul, #element-119 ol, #element-119 h1 {
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+            line-height: 20px;
+            text-align: left;
+        }
+
+        #element-167 {
+            height: 868px;
+            width: 827px;
+            left: 66px;
+            top: 467px;
+            z-index: 11;
+        }
+
+        #element-167 p, #element-167 ul, #element-167 ol, #element-167 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-381 {
+            height: 42px;
+            width: 862px;
+            left: 40px;
+            top: 126px;
+            z-index: 12;
+        }
+
+        #element-381 p, #element-381 ul, #element-381 ol, #element-381 h1 {
+            font-size: 30px;
+            line-height: 36px;
+            text-align: center;
+        }
+
+        #element-491 {
+            height: 36px;
+            width: 372px;
+            left: 297px;
+            top: 721px;
+            z-index: 13;
+        }
+
+        #element-491 p, #element-491 ul, #element-491 ol, #element-491 h1 {
+            font-size: 26px;
+            color: rgb(0, 0, 0);
+            line-height: 36px;
+            text-align: center;
+        }
+
+        #element-495 {
+            height: 50px;
+            width: 823px;
+            left: 81px;
+            top: 30px;
+            z-index: 14;
+        }
+
+        #element-495 p, #element-495 ul, #element-495 ol, #element-495 h1 {
+            font-size: 36px;
+            line-height: 50px;
+        }
+
+        #element-496 {
+            height: 896px;
+            width: 459px;
+            left: -1px;
+            top: 111px;
+            z-index: 15;
+        }
+
+        #element-496 p, #element-496 ul, #element-496 ol, #element-496 h1 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        #element-502 {
+            height: 868px;
+            width: 459px;
+            left: 502px;
+            top: 111px;
+            z-index: 16;
+        }
+
+        #element-502 p, #element-502 ul, #element-502 ol, #element-502 h1 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        #element-506 {
+            height: 364px;
+            width: 459px;
+            left: -1px;
+            top: 1073px;
+            z-index: 17;
+        }
+
+        #element-506 p, #element-506 ul, #element-506 ol, #element-506 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-507 {
+            height: 224px;
+            width: 459px;
+            left: 502px;
+            top: 1073px;
+            z-index: 18;
+        }
+
+        #element-507 p, #element-507 ul, #element-507 ol, #element-507 h1 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        #element-515 {
+            height: 48px;
+            width: 958px;
+            left: 0px;
+            top: 19px;
+            z-index: 19;
+        }
+
+        #element-515 p, #element-515 ul, #element-515 ol, #element-515 h1 {
+            font-size: 34px;
+            line-height: 48px;
+            text-align: center;
+        }
+
+        #element-519 {
+            height: 36px;
+            width: 415px;
+            left: 271px;
+            top: 185px;
+            z-index: 20;
+        }
+
+        #element-519 p, #element-519 ul, #element-519 ol, #element-519 h1 {
+            font-size: 26px;
+            color: rgb(0, 0, 0);
+            line-height: 36px;
+            text-align: center;
+        }
+
+        #element-611 {
+            height: 50px;
+            width: 371px;
+            left: 294px;
+            top: 14px;
+            z-index: 21;
+        }
+
+        #element-611 p, #element-611 ul, #element-611 ol, #element-611 h1 {
+            font-size: 36px;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        #element-612 {
+            height: 504px;
+            width: 829px;
+            left: 64px;
+            top: 86px;
+            z-index: 22;
+        }
+
+        #element-612 p, #element-612 ul, #element-612 ol, #element-612 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-935 {
+            height: 37px;
+            width: 37px;
+            left: 103px;
+            top: 2293px;
+            z-index: 23;
+        }
+
+        #element-947 {
+            height: 36px;
+            width: 37px;
+            left: 103px;
+            top: 2412px;
+            z-index: 24;
+        }
+
+        #element-948 {
+            height: 37px;
+            width: 37px;
+            left: 103px;
+            top: 2586px;
+            z-index: 25;
+        }
+
+        #element-949 {
+            height: 36px;
+            width: 37px;
+            left: 103px;
+            top: 2761px;
+            z-index: 26;
+        }
+
+        #element-950 {
+            height: 36px;
+            width: 37px;
+            left: 103px;
+            top: 2820px;
+            z-index: 27;
+        }
+
+        #element-952 {
+            height: 45px;
+            width: 889px;
+            left: 35px;
+            top: 1355px;
+            z-index: 28;
+        }
+
+        #element-952 p, #element-952 ul, #element-952 ol, #element-952 h1 {
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        #element-977 {
+            height: 756px;
+            width: 829px;
+            left: 65px;
+            top: 1428px;
+            z-index: 29;
+        }
+
+        #element-977 p, #element-977 ul, #element-977 ol, #element-977 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-983 {
+            height: 112px;
+            width: 670px;
+            left: 158px;
+            top: 2283px;
+            z-index: 30;
+        }
+
+        #element-983 p, #element-983 ul, #element-983 ol, #element-983 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-984 {
+            height: 56px;
+            width: 676px;
+            left: 159px;
+            top: 2406px;
+            z-index: 31;
+        }
+
+        #element-984 p, #element-984 ul, #element-984 ol, #element-984 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-985 {
+            height: 56px;
+            width: 676px;
+            left: 158px;
+            top: 2580px;
+            z-index: 32;
+        }
+
+        #element-985 p, #element-985 ul, #element-985 ol, #element-985 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-986 {
+            height: 56px;
+            width: 676px;
+            left: 158px;
+            top: 2753px;
+            z-index: 33;
+        }
+
+        #element-986 p, #element-986 ul, #element-986 ol, #element-986 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-987 {
+            height: 56px;
+            width: 676px;
+            left: 158px;
+            top: 2814px;
+            z-index: 34;
+        }
+
+        #element-987 p, #element-987 ul, #element-987 ol, #element-987 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-988 {
+            height: 28px;
+            width: 826px;
+            left: 80px;
+            top: 2963px;
+            z-index: 35;
+        }
+
+        #element-988 p, #element-988 ul, #element-988 ol, #element-988 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-989 {
+            height: 77px;
+            width: 663px;
+            left: 153px;
+            top: 3016px;
+            z-index: 36;
+        }
+
+        #element-989 p, #element-989 ul, #element-989 ol, #element-989 h1 {
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        #element-990 {
+            height: 420px;
+            width: 829px;
+            left: 67px;
+            top: 3109px;
+            z-index: 37;
+        }
+
+        #element-990 p, #element-990 ul, #element-990 ol, #element-990 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-996 {
+            height: 36px;
+            width: 37px;
+            left: 103px;
+            top: 2485px;
+            z-index: 38;
+        }
+
+        #element-997 {
+            height: 84px;
+            width: 676px;
+            left: 158px;
+            top: 2479px;
+            z-index: 39;
+        }
+
+        #element-997 p, #element-997 ul, #element-997 ol, #element-997 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-998 {
+            height: 36px;
+            width: 37px;
+            left: 103px;
+            top: 2664px;
+            z-index: 40;
+        }
+
+        #element-999 {
+            height: 84px;
+            width: 676px;
+            left: 158px;
+            top: 2653px;
+            z-index: 41;
+        }
+
+        #element-999 p, #element-999 ul, #element-999 ol, #element-999 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-992 {
+            height: 79px;
+            width: 870px;
+            left: 45px;
+            top: 626px;
+            z-index: 42;
+        }
+
+        #element-994 {
+            height: 78px;
+            width: 873px;
+            left: 43px;
+            top: 91px;
+            z-index: 43;
+        }
+
+        #element-1009 {
+            height: 28px;
+            width: 829px;
+            left: 63px;
+            top: 2228px;
+            z-index: 44;
+        }
+
+        #element-1009 p, #element-1009 ul, #element-1009 ol, #element-1009 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-1010 {
+            height: 390px;
+            width: 256px;
+            left: 17px;
+            top: 17px;
+            z-index: 45;
+        }
+
+        #element-1012 {
+            height: 56px;
+            width: 676px;
+            left: 156px;
+            top: 2888px;
+            z-index: 46;
+        }
+
+        #element-1012 p, #element-1012 ul, #element-1012 ol, #element-1012 h1 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: left;
+        }
+
+        #element-1013 {
+            height: 36px;
+            width: 37px;
+            left: 103px;
+            top: 2893px;
+            z-index: 47;
+        }
+
+        #element-1014 {
+            height: 261px;
+            width: 612px;
+            left: 165px;
+            top: 179px;
+            z-index: 48;
+        }
+
+        #element-1016 {
+            height: 150px;
+            width: 126px;
+            left: 283px;
+            top: -65px;
+            z-index: 49;
+        }
+
+        #element-1017 {
+            height: 50px;
+            width: 954px;
+            left: 6px;
+            top: 6px;
+            z-index: 50;
+        }
+
+        #element-1017 p, #element-1017 ul, #element-1017 ol, #element-1017 h1 {
+            font-size: 18px;
+            color: rgb(255, 255, 255);
+            line-height: 25px;
+            text-align: center;
+        }
+
+        #element-1018 {
+            height: 36px;
+            width: 957px;
+            left: 1px;
+            top: 242px;
+            z-index: 51;
+        }
+
+        #element-1018 p, #element-1018 ul, #element-1018 ol, #element-1018 h1 {
+            font-size: 26px;
+            color: rgb(0, 0, 0);
+            line-height: 36px;
+            text-align: center;
+        }
+
+        #page-block-jazh973uhl {
+            height: 65px;
+        }
+
+        #page-block-jazh973uhl .border-holder {
+            background-image: none;
+
+            background-color: #fd100a;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 65px;
+
+            /* */
+        }
+
+        #page-block-jazh973uhl .color-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 0.5;
+        }
+
+        #page-block-jazh973uhl .block-inner {
+            margin-top: 0px;
+        }
+
+        #page_block_header {
+            height: 104px;
+        }
+
+        #page_block_header .border-holder {
+            background-image: none;
+
+            background-color: transparent;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 104px;
+
+            /* */
+        }
+
+        #page_block_header .color-overlay {
+        }
+
+        #page_block_header .block-inner {
+            margin-top: 0px;
+        }
+
+        #page_block_below_fold {
+            height: 286px;
+        }
+
+        #page_block_below_fold .border-holder {
+            background-image: none;
+
+            background-color: #404041;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 286px;
+
+            /* */
+        }
+
+        #page_block_below_fold .color-overlay {
+        }
+
+        #page_block_below_fold .block-inner {
+            margin-top: 0px;
+        }
+
+        #page_block_footer {
+            height: 3536px;
+        }
+
+        #page_block_footer .border-holder {
+            background-image: none;
+
+            background-color: #ffffff;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 3536px;
+
+            /* */
+        }
+
+        #page_block_footer .color-overlay {
+        }
+
+        #page_block_footer .block-inner {
+            margin-top: 0px;
+        }
+
+        #page-block-330fww8cfmh {
+            height: 787px;
+        }
+
+        #page-block-330fww8cfmh .border-holder {
+            background-image: none;
+
+            background-color: transparent;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 787px;
+
+            /* */
+        }
+
+        #page-block-330fww8cfmh .color-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 0.5;
+        }
+
+        #page-block-330fww8cfmh .block-inner {
+            margin-top: 0px;
+        }
+
+        #page-block-csb9ys83eurkvs4i {
+            height: 1464px;
+        }
+
+        #page-block-csb9ys83eurkvs4i .border-holder {
+            background-image: none;
+
+            background-color: #404041;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 1464px;
+
+            /* */
+        }
+
+        #page-block-csb9ys83eurkvs4i .color-overlay {
+        }
+
+        #page-block-csb9ys83eurkvs4i .block-inner {
+            margin-top: 0px;
+        }
+
+        #page-block-p73zjxar3g88semi {
+            height: 295px;
+        }
+
+        #page-block-p73zjxar3g88semi .border-holder {
+            background-image: none;
+
+            background-color: transparent;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 295px;
+
+            /* */
+        }
+
+        #page-block-p73zjxar3g88semi .color-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 0.5;
+        }
+
+        #page-block-p73zjxar3g88semi .block-inner {
+            margin-top: 0px;
+        }
+
+        #page-block-o3x2rsafr3s {
+            height: 51px;
+        }
+
+        #page-block-o3x2rsafr3s .border-holder {
+            background-image: none;
+
+            background-color: #ffffff;
+
+            background-repeat: repeat;
+            background-position: top left;
+
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+
+            width: auto;
+            border-width: 0;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+
+            height: 51px;
+
+            /* */
+        }
+
+        #page-block-o3x2rsafr3s .color-overlay {
+        }
+
+        #page-block-o3x2rsafr3s .block-inner {
+            margin-top: 0px;
+        }
+
+        @media screen and (max-width: 620px), screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( max-device-width: 1280px ) and (max-device-height: 720px), screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( max-device-width: 1000px ) {
+            body {
+                min-width: 400px;
+                width: 100%;
+            }
+
+            .page.page2 {
+                width: 100%;
+            }
+
+            .page.page2 .block-inner {
+                width: 400px;
+                margin: 0 auto;
+            }
+
+            .page.page2.new-mobile-preview .block-inner {
+                width: auto;
+            }
+
+            .widget-form .field-checkbox .field-element label:before,
+            .widget-form .field-radio .field-element label:before {
+                top: 16px;
+            }
+
+            .widget-form .field-checkbox .field-element label:after {
+                top: 21px;
+            }
+
+            .widget-form .field-radio .field-element label:after {
+                top: 16px;
+            }
+
+            .widget-form .select-outer {
+                overflow: hidden;
+                margin-bottom: 8px;
+                margin-top: 8px;
+                -webkit-border-radius: 2px;
+                border-radius: 2px;
+            }
+
+            .widget-form .select-outer select {
+                width: calc(100% - 1px);
+                height: 56px;
+                border: 0;
+                margin: 0;
+                -webkit-appearance: none;
+                line-height: 30px;
+                border-style: solid;
+                border-width: 1px;
+                background-image: url('http://storage.googleapis.com/instapage-app-assets/95/img/builder2/select-arrow-drop-down.png');
+                background-position: right;
+                background-repeat: no-repeat;
+            }
+
+            .widget-form .form-input[type="text"],
+            .widget-form .form-input[type="password"],
+            .widget-form .form-input[type="email"],
+            .widget-form textarea.form-input {
+                padding-top: 12px;
+                padding-bottom: 9px;
+                font-size: 20px;
+                line-height: 22px;
+                height: 56px;
+                -webkit-appearance: none;
+            }
+
+            .widget-form .label-outside,
+            .widget-form .outside-top,
+            .widget-form .field-element label {
+                font-size: 20px;
+                line-height: 22px;
+                padding-top: 12px;
+                padding-bottom: 9px;
+            }
+
+            .widget-form select {
+                font-size: 20px;
+                height: 56px;
+                padding-left: 9px;
+                width: calc(100% + 2px);
+                -moz-padding-start: 5px;
+            }
+
+            .widget-form .input-holder.field-checkbox > label.outside-top,
+            .widget-form .input-holder.field-radio > label.outside-top,
+            .widget-form .field-container.edit.field-checkbox > label.label-outside,
+            .widget-form .field-container.edit.field-radio > label.label-outside {
+                margin-top: 8px;
+                margin-bottom: 2px;
+            }
+
+            .widget-form .form-option-element label,
+            .widget-form .field-element label {
+                font-size: 20px;
+                line-height: 22px;
+                padding-bottom: 0;
+                margin-bottom: 0px;
+            }
+
+            .new_mobile .widget-form textarea.form-input.shortnice {
+                height: 56px;
+            }
+
+            #element-2 {
+                height: 19px;
+                width: 175px;
+                left: 112px;
+                top: 16px;
+                z-index: 3;
+            }
+
+            #element-2 p, #element-2 ul, #element-2 ol, #element-2 h1 {
+                font-size: 17px;
+                color: rgb(0, 0, 0);
+                line-height: 19px;
+                text-align: left !important;
+            }
+
+            #element-3 {
+                height: 45px;
+                width: 398px;
+                left: 1px;
+                top: 44px;
+                z-index: 4;
+            }
+
+            #element-3 p, #element-3 ul, #element-3 ol, #element-3 h1 {
+                font-size: 32px;
+                line-height: 32px;
+                text-align: center !important;
+            }
+
+            #element-4 {
+                height: 72px;
+                width: 346px;
+                left: 24px;
+                top: 510px;
+                z-index: 5;
+            }
+
+            #element-4 p, #element-4 ul, #element-4 ol, #element-4 h1 {
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center !important;
+            }
+
+            #element-24 {
+                display: none;
+            }
+
+            #element-25 {
+                display: none;
+            }
+
+            #element-25 p, #element-25 ul, #element-25 ol, #element-25 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: right !important;
+            }
+
+            #element-31 {
+                height: 36px;
+                width: 297px;
+                left: 42px;
+                top: 62px;
+                z-index: 8;
+            }
+
+            #element-31 p, #element-31 ul, #element-31 ol, #element-31 h1 {
+                font-size: 14px;
+                line-height: 18px;
+                text-align: right !important;
+            }
+
+            #element-36 {
+                height: 52.44px;
+                width: 207px;
+                left: 96px;
+                top: 11px;
+                z-index: 9;
+            }
+
+            #element-119 {
+                height: 18px;
+                width: 347px;
+                left: 25px;
+                top: 24px;
+                z-index: 10;
+            }
+
+            #element-119 p, #element-119 ul, #element-119 ol, #element-119 h1 {
+                font-size: 14px;
+                color: rgb(0, 0, 0);
+                line-height: 18px;
+                text-align: left !important;
+            }
+
+            #element-167 {
+                height: 820px;
+                width: 346px;
+                left: 27px;
+                top: 239px;
+                z-index: 11;
+            }
+
+            #element-167 p, #element-167 ul, #element-167 ol, #element-167 h1 {
+                font-size: 18px;
+                line-height: 20px;
+                text-align: left !important;
+            }
+
+            #element-381 {
+                height: 26px;
+                width: 370px;
+                left: 12px;
+                top: 18px;
+                z-index: 12;
+            }
+
+            #element-381 p, #element-381 ul, #element-381 ol, #element-381 h1 {
+                font-size: 23px;
+                line-height: 26px;
+                text-align: center !important;
+            }
+
+            #element-491 {
+                height: 24px;
+                width: 368px;
+                left: 16px;
+                top: 671px;
+                z-index: 13;
+            }
+
+            #element-491 p, #element-491 ul, #element-491 ol, #element-491 h1 {
+                font-size: 20px;
+                color: rgb(0, 0, 0);
+                line-height: 24px;
+                text-align: center !important;
+            }
+
+            #element-495 {
+                height: 32px;
+                width: 373px;
+                left: 16px;
+                top: 19px;
+                z-index: 14;
+            }
+
+            #element-495 p, #element-495 ul, #element-495 ol, #element-495 h1 {
+                font-size: 25px;
+                line-height: 32px;
+            }
+
+            #element-496 {
+                height: 792px;
+                width: 368px;
+                left: 17px;
+                top: 72px;
+                z-index: 15;
+            }
+
+            #element-496 p, #element-496 ul, #element-496 ol, #element-496 h1 {
+                font-size: 19px;
+                line-height: 22px;
+            }
+
+            #element-502 {
+                height: 748px;
+                width: 368px;
+                left: 17px;
+                top: 895px;
+                z-index: 16;
+            }
+
+            #element-502 p, #element-502 ul, #element-502 ol, #element-502 h1 {
+                font-size: 19px;
+                line-height: 22px;
+            }
+
+            #element-506 {
+                height: 308px;
+                width: 373px;
+                left: 17px;
+                top: 1674px;
+                z-index: 17;
+            }
+
+            #element-506 p, #element-506 ul, #element-506 ol, #element-506 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-507 {
+                height: 220px;
+                width: 368px;
+                left: 15px;
+                top: 2009px;
+                z-index: 18;
+            }
+
+            #element-507 p, #element-507 ul, #element-507 ol, #element-507 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-515 {
+                height: 60px;
+                width: 370px;
+                left: 15px;
+                top: 9px;
+                z-index: 19;
+            }
+
+            #element-515 p, #element-515 ul, #element-515 ol, #element-515 h1 {
+                font-size: 24px;
+                line-height: 30px;
+                text-align: center !important;
+            }
+
+            #element-519 {
+                height: 25px;
+                width: 314px;
+                left: 43px;
+                top: 154px;
+                z-index: 20;
+            }
+
+            #element-519 p, #element-519 ul, #element-519 ol, #element-519 h1 {
+                font-size: 21px;
+                color: rgb(0, 0, 0);
+                line-height: 25px;
+                text-align: center !important;
+            }
+
+            #element-611 {
+                height: 32px;
+                width: 368px;
+                left: 17px;
+                top: 17px;
+                z-index: 21;
+            }
+
+            #element-611 p, #element-611 ul, #element-611 ol, #element-611 h1 {
+                font-size: 25px;
+                line-height: 32px;
+                text-align: center !important;
+            }
+
+            #element-612 {
+                height: 520px;
+                width: 370px;
+                left: 17px;
+                top: 72px;
+                z-index: 22;
+            }
+
+            #element-612 p, #element-612 ul, #element-612 ol, #element-612 h1 {
+                font-size: 18px;
+                line-height: 20px;
+                text-align: left !important;
+            }
+
+            #element-935 {
+                display: none;
+            }
+
+            #element-947 {
+                display: none;
+            }
+
+            #element-948 {
+                display: none;
+            }
+
+            #element-949 {
+                display: none;
+            }
+
+            #element-950 {
+                display: none;
+            }
+
+            #element-952 {
+                height: 55px;
+                width: 370px;
+                left: 15px;
+                top: 1046px;
+                z-index: 28;
+            }
+
+            #element-952 p, #element-952 ul, #element-952 ol, #element-952 h1 {
+                font-size: 23px;
+                line-height: 23px;
+                text-align: center !important;
+            }
+
+            #element-977 {
+                height: 858px;
+                width: 346px;
+                left: 28px;
+                top: 1119px;
+                z-index: 29;
+            }
+
+            #element-977 p, #element-977 ul, #element-977 ol, #element-977 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-983 {
+                height: 154px;
+                width: 362px;
+                left: 19px;
+                top: 2060px;
+                z-index: 30;
+            }
+
+            #element-983 p, #element-983 ul, #element-983 ol, #element-983 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-984 {
+                height: 88px;
+                width: 362px;
+                left: 20px;
+                top: 2201px;
+                z-index: 31;
+            }
+
+            #element-984 p, #element-984 ul, #element-984 ol, #element-984 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-985 {
+                height: 88px;
+                width: 363px;
+                left: 20px;
+                top: 2296px;
+                z-index: 32;
+            }
+
+            #element-985 p, #element-985 ul, #element-985 ol, #element-985 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-986 {
+                height: 66px;
+                width: 365px;
+                left: 20px;
+                top: 2398px;
+                z-index: 33;
+            }
+
+            #element-986 p, #element-986 ul, #element-986 ol, #element-986 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-987 {
+                height: 66px;
+                width: 364px;
+                left: 20px;
+                top: 2477px;
+                z-index: 34;
+            }
+
+            #element-987 p, #element-987 ul, #element-987 ol, #element-987 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-988 {
+                height: 22px;
+                width: 370px;
+                left: 13px;
+                top: 2833px;
+                z-index: 35;
+            }
+
+            #element-988 p, #element-988 ul, #element-988 ol, #element-988 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-989 {
+                height: 55px;
+                width: 384px;
+                left: 9px;
+                top: 2868px;
+                z-index: 36;
+            }
+
+            #element-989 p, #element-989 ul, #element-989 ol, #element-989 h1 {
+                font-size: 23px;
+                line-height: 23px;
+                text-align: center !important;
+            }
+
+            #element-990 {
+                height: 506px;
+                width: 370px;
+                left: 17px;
+                top: 2936px;
+                z-index: 37;
+            }
+
+            #element-990 p, #element-990 ul, #element-990 ol, #element-990 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-996 {
+                display: none;
+            }
+
+            #element-997 {
+                height: 88px;
+                width: 366px;
+                left: 21px;
+                top: 2552px;
+                z-index: 39;
+            }
+
+            #element-997 p, #element-997 ul, #element-997 ol, #element-997 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-998 {
+                display: none;
+            }
+
+            #element-999 {
+                height: 110px;
+                width: 366px;
+                left: 21px;
+                top: 2648px;
+                z-index: 41;
+            }
+
+            #element-999 p, #element-999 ul, #element-999 ol, #element-999 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-992 {
+                height: 53px;
+                width: 369px;
+                left: 16px;
+                top: 603px;
+                z-index: 42;
+            }
+
+            #element-994 {
+                height: 55px;
+                width: 368px;
+                left: 16px;
+                top: 78px;
+                z-index: 43;
+            }
+
+            #element-1009 {
+                height: 44px;
+                width: 370px;
+                left: 14px;
+                top: 2004px;
+                z-index: 44;
+            }
+
+            #element-1009 p, #element-1009 ul, #element-1009 ol, #element-1009 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-1010 {
+                height: 385.43px;
+                width: 253px;
+                left: 73px;
+                top: 102px;
+                z-index: 45;
+            }
+
+            #element-1012 {
+                height: 44px;
+                width: 362px;
+                left: 22px;
+                top: 2769px;
+                z-index: 46;
+            }
+
+            #element-1012 p, #element-1012 ul, #element-1012 ol, #element-1012 h1 {
+                font-size: 19px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+
+            #element-1013 {
+                display: none;
+            }
+
+            #element-1014 {
+                height: 157.54px;
+                width: 370px;
+                left: 15px;
+                top: 63px;
+                z-index: 48;
+            }
+
+            #element-1016 {
+                display: none;
+            }
+
+            #element-1017 {
+                height: 120px;
+                width: 318px;
+                left: 41px;
+                top: 13px;
+                z-index: 50;
+            }
+
+            #element-1017 p, #element-1017 ul, #element-1017 ol, #element-1017 h1 {
+                font-size: 18px;
+                color: rgb(255, 255, 255);
+                line-height: 20px;
+                text-align: center !important;
+            }
+
+            #element-1018 {
+                height: 50px;
+                width: 370px;
+                left: 15px;
+                top: 194px;
+                z-index: 51;
+            }
+
+            #element-1018 p, #element-1018 ul, #element-1018 ol, #element-1018 h1 {
+                font-size: 21px;
+                color: rgb(0, 0, 0);
+                line-height: 25px;
+                text-align: center;
+            }
+
+            #page-block-jazh973uhl {
+                height: 150px;
+            }
+
+            #page-block-jazh973uhl .border-holder {
+                background-image: none;
+
+                background-color: #fd100a;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 150px;
+
+                /* */
+            }
+
+            #page-block-jazh973uhl .color-overlay {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                margin: 0 auto;
+                background-color: rgba(0, 0, 0, 0);
+                opacity: 0.5;
+            }
+
+            #page-block-jazh973uhl .block-inner {
+                margin-top: 0px;
+            }
+
+            #page_block_header {
+                height: 70px;
+            }
+
+            #page_block_header .border-holder {
+                background-image: none;
+
+                background-color: transparent;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 70px;
+
+                /* */
+            }
+
+            #page_block_header .color-overlay {
+            }
+
+            #page_block_header .block-inner {
+                margin-top: 0px;
+            }
+
+            #page_block_below_fold {
+                height: 606px;
+            }
+
+            #page_block_below_fold .border-holder {
+                background-image: none;
+
+                background-color: #404041;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 606px;
+
+                /* */
+            }
+
+            #page_block_below_fold .color-overlay {
+            }
+
+            #page_block_below_fold .block-inner {
+                margin-top: 0px;
+            }
+
+            #page_block_footer {
+                height: 3466px;
+            }
+
+            #page_block_footer .border-holder {
+                background-image: none;
+
+                background-color: #ffffff;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                border-color: #e8e8e8;
+                border-style: solid;
+                width: auto;
+                border-width: 0;
+                border-top-width: 1px;
+                border-bottom-width: 1px;
+
+                height: 3466px;
+
+                /* */
+            }
+
+            #page_block_footer .color-overlay {
+            }
+
+            #page_block_footer .block-inner {
+                margin-top: -1px;
+            }
+
+            #page-block-330fww8cfmh {
+                height: 717px;
+            }
+
+            #page-block-330fww8cfmh .border-holder {
+                background-image: none;
+
+                background-color: transparent;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 717px;
+
+                /* */
+            }
+
+            #page-block-330fww8cfmh .color-overlay {
+            }
+
+            #page-block-330fww8cfmh .block-inner {
+                margin-top: 0px;
+            }
+
+            #page-block-csb9ys83eurkvs4i {
+                height: 2276px;
+            }
+
+            #page-block-csb9ys83eurkvs4i .border-holder {
+                background-image: none;
+
+                background-color: #404041;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 2276px;
+
+                /* */
+            }
+
+            #page-block-csb9ys83eurkvs4i .color-overlay {
+            }
+
+            #page-block-csb9ys83eurkvs4i .block-inner {
+                margin-top: 0px;
+            }
+
+            #page-block-p73zjxar3g88semi {
+                height: 244px;
+            }
+
+            #page-block-p73zjxar3g88semi .border-holder {
+                background-image: none;
+
+                background-color: transparent;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 244px;
+
+                /* */
+            }
+
+            #page-block-p73zjxar3g88semi .color-overlay {
+            }
+
+            #page-block-p73zjxar3g88semi .block-inner {
+                margin-top: 0px;
+            }
+
+            #page-block-o3x2rsafr3s {
+                height: 85px;
+            }
+
+            #page-block-o3x2rsafr3s .border-holder {
+                background-image: none;
+
+                background-color: #ffffff;
+
+                background-repeat: repeat;
+                background-position: top left;
+
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+
+                width: auto;
+                border-width: 0;
+                border-top-width: 0px;
+                border-bottom-width: 0px;
+
+                height: 85px;
+
+                /* */
+            }
+
+            #page-block-o3x2rsafr3s .color-overlay {
+            }
+
+            #page-block-o3x2rsafr3s .block-inner {
+                margin-top: 0px;
+            }
+
+        }
+
+        @media screen and (min-width: 621px)  and (-webkit-max-device-pixel-ratio: 1.5), screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5) {
+            .new_mobile .page.page2.mobile .block-inner {
+                width: 960px;
+            }
+        }
+    </style>
+
+    <!-- Start Visual Website Optimizer Asynchronous Code -->
+    <script data-cfasync="false" type="text/javascript">
+        var _vwo_code = (function () {
+            var account_id = 2583,
+                    settings_tolerance = 2000,
+                    library_tolerance = 2500,
+                    use_existing_jquery = false,
+            // DO NOT EDIT BELOW THIS LINE
+                    f = false, d = document;
+            return {
+                use_existing_jquery: function () {
+                    return use_existing_jquery;
+                }, library_tolerance: function () {
+                    return library_tolerance;
+                }, finish: function () {
+                    if (!f) {
+                        f = true;
+                        var a = d.getElementById('_vis_opt_path_hides');
+                        if (a)a.parentNode.removeChild(a);
+                    }
+                }, finished: function () {
+                    return f;
+                }, load: function (a) {
+                    var b = d.createElement('script');
+                    b.src = a;
+                    b.type = 'text/javascript';
+                    b.innerText;
+                    b.onerror = function () {
+                        _vwo_code.finish();
+                    };
+                    d.getElementsByTagName('head')[0].appendChild(b);
+                }, init: function () {
+                    settings_timer = setTimeout('_vwo_code.finish()', settings_tolerance);
+                    this.load('//dev.visualwebsiteoptimizer.com/j.php?a=' + account_id + '&u=' + encodeURIComponent(d.URL) + '&r=' + Math.random());
+                    var a = d.createElement('style'), b = 'body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}', h = d.getElementsByTagName('head')[0];
+                    a.setAttribute('id', '_vis_opt_path_hides');
+                    a.setAttribute('type', 'text/css');
+                    if (a.styleSheet)a.styleSheet.cssText = b; else a.appendChild(d.createTextNode(b));
+                    h.appendChild(a);
+                    return settings_timer;
+                }
+            };
+        }());
+        _vwo_settings_timer = _vwo_code.init();
+    </script>
+    <script src="css/j.php" type="text/javascript"></script>
+    <!-- End Visual Website Optimizer Asynchronous Code -->
+
+
+    <script async="" src="css/hotjar-48783.js"></script>
+    <script src="css/modules-41583c52937b4bb5735122fea5d73169.js"></script>
+</head>
+
+
+<body class=" new_mobile" style="display: block;">
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJ6X9X"
+    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-WJ6X9X');</script>
+<!-- End Google Tag Manager -->
+
+<div id="i-page" class="page page2 ">
+    <div class="notification">
+        <div class="notification-overlay"></div>
+        <div class="notification-inner">
+            <img rel="//storage.googleapis.com/instapage-app-assets/95/img/loading_circle.svg"
+                 src="css/loading_circle.svg" class="loading notification-loader" alt="">
+            <span class="message"></span>
+            <span class="close-button" onclick="jQuery(this).parent().parent().hide()">Close</span>
+        </div>
+    </div>
+
+    <div class="page-block" id="page-block-jazh973uhl">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-headline widget-headline "
+                     id="element-1017">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style="text-align: center;  ">ВАЖНО: Ваши
+                                "Рекламные Шаблоны Facebook"&nbsp; уже в пути&nbsp;! (Дайте 10-15 минут для доставки).&nbsp;</p>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style="text-align: center;  ">Не ИСПОЛЬЗУЙТЕ&nbsp;
+                                эти &nbsp;Рекламные Шаблоны Facebook&nbsp;пока не прочтете эту страницу до конца.</p>
+                        </h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page_block_header">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-24">
+
+
+                    <div class="contents">
+                        <img src="css/1460063894-350440-24x30-phone16.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-25">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style="text-align: right;  "><font
+                            color="#848484">+38 (050) 7336953</font></p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-36">
+
+
+                    <div class="contents">
+                        <a style="width: 100%; height: 100%;" target="_blank">
+                            <!--<p style="margin: 15px 0 0">под редакцией</p>-->
+                            <img style="width: 214px; margin: 25px auto 15px;"
+                                 src="http://healthmarketing.me/wp-content/uploads/2015/12/logo-2.png"
+                                 style="height: 100%; width: 100%; margin-top: 0.1333329975605011px;" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page_block_below_fold">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-4">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style="text-align: left;  "><span
+                                    style="color: rgb(255, 255, 255);">Как Использовать Facebook Чтобы Быстро (и Дешево) &nbsp;Запускать, Тестировать и Масштабировать Ваши Траффик Кампании</span>
+                            </p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-2">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style=" "><font color="#ffffff">ПРЕДСТАВЛЯЕМ:</font><br>
+                            </p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-3">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               style="text-align: left;  ">
+                                <font style="font-size: 45px;" color="#bbd610"><b>$10-в-День Траффик План</b></font>
+                            </p>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-1010">
+
+
+                    <div class="contents">
+                        <a href="https://www.digitalmarketer.com/secure/10-dollar-traffic-plan/"
+                           style="width: 100%; height: 100%;" target="_blank">
+                            <img src="css/1460063896-1444517-256x390-10DayTrafficPlanTile.jpg"
+                                 style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page_block_footer">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-988">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">…and so much more!</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-1012">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">The <b>"6/3/1 ratio" for budgeting
+                        your ad spend</b> (to almost guarantee ROI and scale).</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-381">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style="text-align: center;  ">
+                                <b>ДЕСЯТЬ ДОЛЛАРОВ...</b>
+                            </p>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-997">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">The <b>THREE traffic campaigns you
+                        MUST be running today</b> (we're even going to show you who to target, how to bid, and how much
+                        to spend for each campaign….)</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-935">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x37-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-167">
+
+                    <div class="contents" style="color: #000000;">
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">Это не много по нынешним меркам. На самом деле, вы и ваш друг потратите их, или чуть больше, покупая латте и пончики в вашей любимом кафе.</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><b>Но для нас, Десять Долларов это очень много.</b>
+                            <br><br>Все потому что мы знаем о ТРЕХ конкретных и проверенных типах Facebook
+                            кампаний которые вы можете запустить всего за 10$ в день.</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">Так вот, это значит что...</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">Вы думаете что вам нужен бюджет в сотни или даже тысячи долларов                           чтобы протестировать новое предложение?</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">Обычно так и бывает.</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">К счастью,&nbsp;благодаря Facebook,
+                            вы можете начать и реально получить статистически значимые результаты…&nbsp;</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">…всего за $10 в день.</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><b><i>Действительно… за десять долларов в день
+                            и несколько дней тестирования, вы будете знать является ли ваше предложение удачным или нет.</i></b></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">And when you know you have a winner,
+                            you can scale those same campaigns to $100 and even $1,000 per day.</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br></p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" ">Heck, when it's ROI'ing, the more you
+                            can spend, the better. &nbsp;But it all starts with just TEN DOLLARS!</p>
+                        <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragstart="return false" draggable="false" style=" "><br>The good news is that it’s
+                            actually&nbsp;easier than you think to get started, especially when you follow our&nbsp;proven
+                            system.</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-947">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x36-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-990">
+
+                    <div class="contents" style="color: #000000;"><p draggable="false" ondragstart="return false"
+                                                                     ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     style=" ">Seriously… don't do it.
+
+                        In just hours from now, you could be launching your own highly -profitable customer-getting
+                        traffic campaigns…</p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">
+
+                            …for just $10 per day.
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">Why risk "going in the hole" with your traffic campaigns when you can test quickly
+                            with a small budget and know if a campaign is working, all for less than the cost of a large
+                            pizza per day?
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">This plan is proven and is simple to follow…
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">…you just need to use our training and our Facebook ad templates to guide you in
+                            the right direction.
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">And price shouldn’t be an issue, because you can have access to the complete "$10
+                            Per Day Traffic Plan" training (plus our proven&nbsp;Facebook ad templates) for just $7.</p>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-948">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x37-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-999">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">Our "Penny Per" campaign! <b>The
+                        exact campaign we're using to "Pixel" visitors for only 1 cent per person</b> (not sure what
+                        "pixel" means? Don't worry, we'll teach you that, too…)</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-949">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x36-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-1014">
+
+
+                    <div class="contents">
+                        <img src="css/1460063896-1467989-612x261-TenDollarBill.jpg"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-950">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x36-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-987">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">The <b>"YOU FORGOT" reminder converts
+                        dead clicks into new customers</b> (even after they've already said no to your offer!)</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-952">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1><p style="text-align: center;  " draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();">
+                            <b>That's Why We Created Our
+                                21-Step Traffic Rollout&nbsp;Plan</b></p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-989">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1><p style="text-align: center;  " draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();">
+                            <b>Do NOT Launch Another&nbsp;</b><b
+                                style="font-style: inherit; background-color: transparent;">Facebook Ad Campaign</b><b
+                                style="font-style: inherit; background-color: transparent;">&nbsp;Without This Plan!</b>
+                        </p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-977">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">This is a proven plan to help you
+                        quickly&nbsp;roll out new traffic campaigns so you can identify winners…
+
+                        <br><br>…but more importantly, identify the losers that are costing you money.<br><br>
+
+                        Why would you want to do that?
+
+                        <br><br>Simple.
+
+                        <br><br>Most offers and campaigns don't work, but that's where most people focus 100% of their
+                        efforts.
+
+                        <br><br>See, at DigitalMarketer, we do the exact opposite.
+
+                        <br><br><i>The campaigns we can't make ROI positive at $10 per day are NOT worth our time.
+                        </i>
+                        <br><br>Where we spend most of our time is scaling our winning ads and offers.
+
+                        <br><br>However, if we didn’t have a way to quickly find out if an offer will work, we wouldn't
+                        know what to scale (and would probably scale costly, losing campaigns like too many others
+                        do)…<br><br>
+
+                        …and that's where the $10 per day traffic and testing plan comes in.
+
+                        <br><br>This training covers everything you need to know to get started testing your offers -
+                        from audience targeting to ad creation and launching the ad, and more.
+
+                        <br><br>No step is left out.</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-996">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x36-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-983">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">The <b>3-step system to generate a
+                        consistent flow of leads and sales from cold traffic</b> (this the same strategy big brands and
+                        funded startups use to dominate their markets but it works for "mom and pop shops" and shoe
+                        string startups too)…</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-998">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x36-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-984">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" "><b>How to create eye catching, high
+                        converting ad images</b> even if you're not a designer (or don’t have the money to hire one)...
+                    </p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-1009">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" ">Here’s What You’ll Get Immediate
+                        Access To When You Get The $10 Per Day Traffic Plan:</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-985">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" "><b>Our 6-Step "value first" strategy
+                        to turn even the coldest prospect into a raving fan</b> (go straight for marriage on the first
+                        date and you will FAIL!)</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-1013">
+
+
+                    <div class="contents">
+                        <img src="css/1460063895-913231-37x36-DMGearBullet.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-986">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style=" "><b>Exactly what each of your ads
+                        should say</b> (In fact we'll just let you copy &amp; paste best headlines to use in your
+                        campaigns).</p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-image widget-image " id="element-1016">
+
+
+                    <div class="contents">
+                        <img src="css/1460063897-881216-126x150-286117289381125x148cosmoarrow3.png"
+                             style="height: 100%; width: 100%; margin-top: 0px;" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page-block-330fww8cfmh">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-612">
+
+                    <div class="contents" style="color: #000000;"><p draggable="false" ondragstart="return false"
+                                                                     ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     style=" ">Literally, you can have one of those
+                        fancy coffees at Starbucks or:
+
+                    </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">You can become a life-saver at your company by being the guy or gal who finally
+                            knows how to launch, test and scale your next traffic campaign, on a small budget, all while
+                            generating customers at a profit immediately.
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">You’ll save countless time, money and headaches by finally knowing how to quickly
+                            test offers and begin to grow your traffic, leads and sales fast.
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">The choice is yours.&nbsp;</p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">If you want to get started, click the "Add To Cart" button below and finally have
+                            the proven traffic plan on your side…
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">…so you can stop losing money, and finally know exactly how to sell your products
+                            or services profitably…
+
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><br></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" ">…then click the "Add To Cart" button right now.
+                        </p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-491">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1><p draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               style="text-align: center;  "><a
+                                href="https://digitalmarketer.com/secure/tdtp/get-10-dollar-traffic-plan/" rel="null"
+                                type="url" id="link-efpzhcnovp" class="url-link"><font
+                                color="#0d00ff"><u></u></font><font color="#0d00ff"><u>Add To Cart - Just $7 <i>(Save
+                            74%)</i></u></font></a></p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-611">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1><p draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               style="text-align: center;  "><font color="#ff0a00"><b>Yep, Just $7</b></font></p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-button widget-button " id="element-992">
+
+                    <style type="text/css">
+                        #element-992 .dynamic-button {
+                            background-color: #bbd610;
+
+                            color: #000000;
+
+                        }
+
+                        #element-992 .dynamic-button:active {
+                        }
+
+                        #element-992 .dynamic-button:hover {
+                            background-color: #a0b80a;
+                        }
+
+                        #element-992 .dynamic-button, #element-992 .image-button {
+                            width: 870px;
+                            height: 79px;
+                            z-index: 42;
+                            line-height: 32px;
+                            font-size: 25px;
+                            font-weight: 400;
+                            font-family: Lato;
+                            border-radius: 5px;
+                        }
+
+                        @media screen and ( max-width: 620px ), screen and ( max-width: 999px ) and ( -webkit-min-device-pixel-ratio: 1.5 ) and ( max-device-width: 1280px ) and ( max-device-height: 720px ), screen and ( max-width: 999px ) and ( -webkit-min-device-pixel-ratio: 1.5 ) and ( max-device-width: 1000px ) {
+                            body:not( .tablet ) #element-992 .dynamic-button, body:not( .tablet ) #element-992 .image-button {
+                                width: 369px;
+                                height: 53px;
+                                z-index: 42;
+                                line-height: 53px;
+                                font-size: 17px;
+                            }
+                        }
+
+                    </style>
+                    <div class="conversion_wrapper">
+                        <a href="https://digitalmarketer.com/secure/tdtp/get-10-dollar-traffic-plan/"
+                           style="width: 870px; height: 79px;" data-wid="992">
+
+                            <div class="btn submit-button button_submit dynamic-button   ">Get The $10 Per Day Traffic
+                                Plan For Just $7 &gt;&gt;</div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page-block-csb9ys83eurkvs4i">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-506">
+
+                    <div class="contents" style="color: #000000;"><p draggable="false" ondragstart="return false"
+                                                                     ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     style=" "><b><font color="#bbd616">QUESTION:</font></b><font
+                            color="#ffffff"> Is there a guarantee?</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><b style="color: rgb(187, 214, 22);">ANSWER: </b><font color="#ffffff"><b>Yep…all
+                            our trainings have a 60-day, no-questions-asked guarantee.</b></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">In other words, if you aren’t happy for any reason, just let
+                            us know and we’ll give you your money back. We obviously don’t think it’ll come to that, but
+                            if you're even the least bit worried if this will work for you, then put your mind at
+                            ease. </font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">You either get the results you want or you get your money
+                            back. It’s as simple as that!</font></p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-496">
+
+                    <div class="contents" style="color: #000000;"><p draggable="false" ondragstart="return false"
+                                                                     ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     style=" "><b><font color="#bbd616">QUESTION:</font></b><font
+                            color="#ffffff"> What is an "Execution Plan"?</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><b><font color="#bbd616">ANSWER: </font></b><font color="#ffffff">It's not quite a
+                            course and it's definitely not just an ordinary report or whitepaper…</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">…an Execution Plan is more like a “checklist on
+                            steroids!”</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">Here's how it works:</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">In the last 36 months my team and I have:</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p style=" "><span style="color: rgb(255, 255, 255);">- Invested over $15,000,000 <i>(of our own money) </i>on marketing tests…</span><br>
+                        </p>
+                        <p style=" "><span style="color: rgb(255, 255, 255);">- Generated tens of millions of unique visitors…</span><br>
+                        </p>
+                        <p style=" "><span
+                                style="color: rgb(255, 255, 255);">- Sent well over a BILLION emails, and…</span><br>
+                        </p>
+                        <p style=" "><span style="color: rgb(255, 255, 255);">- Run approximately 3,000 split and mufti-variant tests…</span><br>
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">…all through our own, internal companies.</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">And along the way we have perfected a large number of
+                            strategies and tactics. More importantly, like any good scientists, we DOCUMENT each
+                            strategy in step-by-step "Execution Plans" so our best ideas could be repeated and rolled
+                            out across all our different businesses.</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><b>They're all meat and no fluff. </b>If you want back story
+                            and theory, go read a blog post. Execution Plans are all about taking action and getting
+                            results as quickly and easily as possible.</font></p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-495">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style="text-align: center;  "><b><font
+                                    color="#ffffff">Frequently Asked Questions</font></b></p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-502">
+
+                    <div class="contents" style="color: #000000;"><p draggable="false" ondragstart="return false"
+                                                                     ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     style=" "><font
+                            color="#bbd616"><b>QUESTION:</b></font><font color="#ffffff"><b> </b>Why $7?</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#bbd616"><b>ANSWER:</b> </font><font color="#ffffff">If you’re
+                            thinking "$7 is cheap…what’s the catch?" then here are three reasons that should put your
+                            mind at ease:</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><b>1. $7 puts this information within the reach of
+                            everyone</b>…from solo entrepreneurs to startups and even Fortune 500. (And at $7, you
+                            shouldn’t have to get approval or fill out a purchase order.) ;)</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><b>2. It weeds out the freebie-seekers. </b>We only want
+                            serious marketers who take action, and in our experience charging anything…even if it’s just
+                            a buck… gets rid of 99% of the chuckle-heads.</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><b>3. We tested it, and $7 generated the best overall
+                            ROI. </b><i>(Hey, we’re all marketers here so why not tell it like it is?)</i></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">We also believe that once you experience this Execution Plan,
+                            you'll want more and maybe…just maybe…you'll come back, buy more and possible even upgrade
+                            to DM Lab where you get access to our complete Execution Plan Library.</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">But that's it…</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"> No fine print…no "hidden trials"…no shenanigans. Just the
+                            information you need and the results you want.</font></p></div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-507">
+
+                    <div class="contents" style="color: #000000;"><p draggable="false" ondragstart="return false"
+                                                                     ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                                                                     style=" "><b><font color="#bbd616">QUESTION:</font></b><font
+                            color="#ffffff"> How long will it take to get access?</font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff"><br></font></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><b style="color: rgb(187, 214, 22);">ANSWER: </b><b><font color="#ffffff">Immediate.</font></b>
+                        </p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><b><font color="#ffffff"><br></font></b></p>
+                        <p draggable="false" ondragstart="return false"
+                           ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                           style=" "><font color="#ffffff">Your login and access information will be sent to the email
+                            address you provide, and there will be a video on the next page that explains how you can
+                            access the guide inside of our Execution Plan Library.</font></p></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page-block-p73zjxar3g88semi">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-button widget-button " id="element-994">
+
+                    <style type="text/css">
+                        #element-994 .dynamic-button {
+                            background-color: #bbd610;
+
+                            color: #000000;
+
+                        }
+
+                        #element-994 .dynamic-button:active {
+                        }
+
+                        #element-994 .dynamic-button:hover {
+                            background-color: #a0b80a;
+                        }
+
+                        #element-994 .dynamic-button, #element-994 .image-button {
+                            width: 873px;
+                            height: 78px;
+                            z-index: 43;
+                            line-height: 31px;
+                            font-size: 25px;
+                            font-weight: 400;
+                            font-family: Lato;
+                            border-radius: 5px;
+                        }
+
+                        @media screen and ( max-width: 620px ), screen and ( max-width: 999px ) and ( -webkit-min-device-pixel-ratio: 1.5 ) and ( max-device-width: 1280px ) and ( max-device-height: 720px ), screen and ( max-width: 999px ) and ( -webkit-min-device-pixel-ratio: 1.5 ) and ( max-device-width: 1000px ) {
+                            body:not( .tablet ) #element-994 .dynamic-button, body:not( .tablet ) #element-994 .image-button {
+                                width: 368px;
+                                height: 55px;
+                                z-index: 43;
+                                line-height: 55px;
+                                font-size: 17px;
+                            }
+                        }
+
+                    </style>
+                    <div class="conversion_wrapper">
+                        <a href="https://digitalmarketer.com/secure/tdtp/get-10-dollar-traffic-plan/"
+                           style="width: 873px; height: 78px;" data-wid="994">
+
+                            <div class="btn submit-button button_submit dynamic-button   ">Get The $10 Per Day Traffic
+                                Plan For Just $7 &gt;&gt;</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-515">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1>
+                            <p ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragstart="return false" draggable="false" style="text-align: center;  "><font
+                                    color="#404041">Get <u>INSTANT</u> Access To The $10 Per Day Traffic Plan Now</font>
+                            </p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline " id="element-519">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1><p draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               style="text-align: center;  "><a
+                                href="https://digitalmarketer.com/secure/tdtp/get-10-dollar-traffic-plan/" rel="null"
+                                type="url" id="link-dhdwcc7ef04ow8tv7u2qpvi" class="url-link"><font
+                                color="#0d00ff"><u></u></font><font color="#0d00ff"><u>Add To Cart - Just $7 <i>(Save
+                            74%)</i></u></font></a></p></h1>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-headline widget-headline "
+                     id="element-1018">
+
+
+                    <div class="contents" style="color: #000000;">
+                        <h1><p draggable="false" ondragstart="return false"
+                               ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                               style="text-align: center;  "><font color="#0d00ff"><u><em class="scribe-marker"></em><a
+                                href="http://www.digitalmarketer.com/lp/fat/get-traffic-plan-noty" type="url"
+                                id="link-l25j8g8umhr" class="url-link">No Thank You, I Just Want To Download The
+                            Facebook Ad Templates</a><em class="scribe-marker"></em></u></font></p></h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="page-block" id="page-block-o3x2rsafr3s">
+        <div class="color-overlay"></div>
+        <div class="border-holder">
+            <div class="block-inner">
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-31">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style="text-align: right;  "><font
+                            color="#000000"><a target="_blank" class="url-link" id="link-z5j5p54yunf" type="url"
+                                               rel="null" href="http://www.digitalmarketer.com/blog/">DM Blog</a> | <a
+                            class="url-link" id="link-re8z9mhapxd" type="url" rel="null"
+                            href="http://www.digitalmarketer.com/about-us/">About Us </a> | <a class="url-link"
+                                                                                               id="link-zzgkpejae7"
+                                                                                               type="url" rel="null"
+                                                                                               href="http://www.digitalmarketer.com/privacy-policy/">Privacy
+                        Policy</a> | <a class="url-link" id="link-doaegkagae4" type="url" rel="null"
+                                        href="http://www.digitalmarketer.com/contact-us/">Contact Us</a></font></p>
+                    </div>
+                </div>
+
+                <div class="page-element widget-container page-element-type-text widget-text " id="element-119">
+
+                    <div class="contents" style="color: #000000;"><p
+                            ondrop="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragover="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragenter="event.dataTransfer.dropEffect=&#39;none&#39;; event.stopPropagation(); event.preventDefault();"
+                            ondragstart="return false" draggable="false" style="text-align: left;  "><font
+                            color="#FFFFFF"><font color="#000000">© Copyright 2016 <b>DigitalMarketer</b> - All rights
+                        reserved.</font><br></font></p></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="fb-root"></div>
+
+<!-- visitor pixel -->
+<script type="text/javascript" data-cfasync="false" class="instapage-noscrap">
+    window.__conversions_settings = {"forms": false, "links": false, "external": false, "changed_by_user": 942008};
+    function iCopyKeenEvent(name, properties) {
+        var params_copy = window.__keen_io_called_parameters.slice();
+        var data = {};
+        properties = properties || {};
+
+        for (i in params_copy[2]) {
+            if (params_copy[2].hasOwnProperty(i)) {
+                data[i] = params_copy[2][i];
+            }
+        }
+
+        for (i in properties) {
+            if (properties.hasOwnProperty(i)) {
+                data[i] = properties[i];
+            }
+        }
+
+        if (name === 'conversion' && window.__unique) {
+            if (window.__unique.isVisited()) {
+                data['responsive_mode'] = window.__unique.isResponsiveMode() ? 'mobile' : null;
+            }
+        }
+
+
+        params_copy.splice(1, 2, name, data);
+        return params_copy;
+    }
+
+    function iEncodePixelUrl(id, event, data, key) {
+        var endpoint = "anthill.instapage.com" + '/projects/' + id + '/events/' + event;
+        var query = 'api_key=' + key + '&data=' + base64_encode(JSON.stringify(data));
+        var image_url = '//' + endpoint + '?' + query;
+
+        return image_url;
+    }
+
+    function iCreateTrackingPixel(src) {
+        return ijQuery('<img>')
+                .attr({
+                    src: src,
+                    width: 1,
+                    height: 1,
+                    alt: '',
+                    title: '',
+                    style: 'display: table-cell; height: 0; position: absolute; left: -9999999px; top: -999999px;'
+                })
+    }
+
+    ijQuery(document).on('ready', function () {
+        var cookie_name = 'instapage-visit-942008';
+        var parameters = {
+            "user_id": 134843,
+            "page_id": 942008,
+            "published_version": 14,
+            "quantity": 1,
+            "static_page": false,
+            "variation_name": "A",
+            "variation_id": 4,
+            "linked_variation_id": 5,
+            "initial_responsive_mode": null,
+            "visitor_ip": "10.189.245.9",
+            "useragent": "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/48.0.2564.116 Safari\/537.36"
+        };
+        var id = '942008';
+        var track_returning_visitors = false;
+
+        var project_id = '56c2f3d796773d0a7e96a536';
+        var event = 'visit';
+        var key = '8fa0c49827473f4af115c4ef732cffd638eaa817defd4a2e2079d141fc53eca6d225a00a188d42fc2b08290f625195989da229bcca2d96d93cc08adc15f37a4367138ec0f204b75b6c05d11fb20ea01199f97fecd26ab4b7091529c4a1c265f50f16fbf86445294391beb5855d77d3f8199d73200f44196151e6170e4264d0e6296e92c4da5e53e86fa04b39f570286d';
+
+        parameters.javascript = true;
+        parameters.variation = parameters.variation_name;
+        parameters.generation_time = '47';
+        parameters.responsive_mode = null;
+
+        if (window.__mobile_version === 2 && window.innerWidth < 600 && window.__variant.indexOf('-mobile') < 0) {
+            window.__variant += '-mobile';
+            parameters.responsive_mode = 'mobile';
+        }
+        else if (window.__variant.indexOf('-mobile') > 0) {
+            parameters.responsive_mode = 'mobile';
+        }
+
+        window.__unique = new InstapageUniqueVisit(cookie_name, {
+            variant: parameters.variation_name,
+            responsive_mode: parameters.responsive_mode,
+            reset: {}
+        });
+
+        parameters.visited = window.__unique.isVisited();
+        window.__keen_io_called_parameters = [project_id, event, parameters, key];
+        if (!parameters.visited || track_returning_visitors) {
+            iCreateTrackingPixel(iEncodePixelUrl(project_id, event, parameters, key))
+                    .appendTo(ijQuery('body'));
+
+            window.__unique.setResponsiveMode(parameters.responsive_mode);
+            window.__unique.setVisited();
+            window.__unique.save();
+        }
+    });
+</script>
+<noscript class="instapage-noscrap">
+    &lt;img
+    href="//anthill.instapage.com/projects/56c2f3d796773d0a7e96a536/events/visit?api_key=8fa0c49827473f4af115c4ef732cffd638eaa817defd4a2e2079d141fc53eca6d225a00a188d42fc2b08290f625195989da229bcca2d96d93cc08adc15f37a4367138ec0f204b75b6c05d11fb20ea01199f97fecd26ab4b7091529c4a1c265f50f16fbf86445294391beb5855d77d3f8199d73200f44196151e6170e4264d0e6296e92c4da5e53e86fa04b39f570286d&amp;data=eyJ1c2VyX2lkIjoxMzQ4NDMsInBhZ2VfaWQiOjk0MjAwOCwicHVibGlzaGVkX3ZlcnNpb24iOjE0LCJxdWFudGl0eSI6MSwic3RhdGljX3BhZ2UiOmZhbHNlLCJ2YXJpYXRpb25fbmFtZSI6IkEiLCJ2YXJpYXRpb25faWQiOjQsImxpbmtlZF92YXJpYXRpb25faWQiOjUsImluaXRpYWxfcmVzcG9uc2l2ZV9tb2RlIjpudWxsLCJ2aXNpdG9yX2lwIjoiMTAuMTg5LjI0NS45IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NCkgQXBwbGVXZWJLaXRcLzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZVwvNDguMC4yNTY0LjExNiBTYWZhcmlcLzUzNy4zNiIsImdlbmVyYXRpb25fdGltZSI6Mzd9"
+    &gt;
+</noscript>
+<!-- end -->
+<script>(function () {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '270680539763817']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript>&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=270680539763817&amp;ev=PixelInitialized"
+    /&gt;</noscript>
+
+<script data-cfasync="false" src="css/trackfu.js"></script>
+
+<script type="text/javascript" data-cfasync="false">
+    setTimeout(function () {
+        var a = document.createElement("script");
+        var b = document.getElementsByTagName("script")[0];
+        a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0031/6658.js?" + Math.floor(new Date().getTime() / 3600000);
+        a.async = true;
+        a.type = "text/javascript";
+        b.parentNode.insertBefore(a, b)
+    }, 1);
+</script>
+
+
+<script type="text/javascript">window.NREUM || (NREUM = {});
+NREUM.info = {
+    "beacon": "bam.nr-data.net",
+    "licenseKey": "0f3c19bb1c",
+    "applicationID": "3107091",
+    "transactionName": "b1YHMRRXWRJXAhJZDlYcMBcPGVsRGQgIVARAHRUNFg==",
+    "queueTime": 0,
+    "applicationTime": 153,
+    "atts": "QxEER1xNShw=",
+    "errorBeacon": "bam.nr-data.net",
+    "agent": ""
+}</script>
+
+
+<script type="text/javascript" id="">(function (a, c, e, f, d, b) {
+    a.hj = a.hj || function () {
+                (a.hj.q = a.hj.q || []).push(arguments)
+            };
+    a._hjSettings = {hjid: 48783, hjsv: 5};
+    d = c.getElementsByTagName("head")[0];
+    b = c.createElement("script");
+    b.async = 1;
+    b.src = e + a._hjSettings.hjid + f + a._hjSettings.hjsv;
+    d.appendChild(b)
+})(window, document, "//static.hotjar.com/c/hotjar-", ".js?sv\x3d");</script>
+<script type="text/javascript" id="" src="css/trackfu.js"></script>
+<script type="text/javascript" id="" src="css/oi-yi7E1nh9.js"></script>
+<script type="text/javascript" id="">!function (b, e, f, g, a, c, d) {
+    b.fbq || (a = b.fbq = function () {
+        a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
+    }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c, d))
+}(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
+fbq("init", "270680539763817");
+fbq("track", "PageView");</script>
+<noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=270680539763817&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+<script type="text/javascript" id="">(function (b, c, e, g, d) {
+    var f, a;
+    b[d] = b[d] || [];
+    f = function () {
+        var a = {ti: "5078830"};
+        a.q = b[d];
+        b[d] = new UET(a);
+        b[d].push("pageLoad")
+    };
+    a = c.createElement(e);
+    a.src = g;
+    a.async = 1;
+    a.onload = a.onreadystatechange = function () {
+        var b = this.readyState;
+        b && "loaded" !== b && "complete" !== b || (f(), a.onload = a.onreadystatechange = null)
+    };
+    c = c.getElementsByTagName(e)[0];
+    c.parentNode.insertBefore(a, c)
+})(window, document, "script", "//bat.bing.com/bat.js", "uetq");</script>
+<noscript>&lt;img src="//bat.bing.com/action/0?ti=5078830&amp;amp;Ver=2" height="0" width="0" style="display:none;
+    visibility: hidden;"&gt;</noscript>
+<script type="text/javascript" id="">(function () {
+    var b = window._fbq || (window._fbq = []);
+    if (!b.loaded) {
+        var a = document.createElement("script");
+        a.async = !0;
+        a.src = "https://connect.facebook.net/en_US/fbds.js";
+        var c = document.getElementsByTagName("script")[0];
+        c.parentNode.insertBefore(a, c);
+        b.loaded = !0
+    }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(["track", "6015305026502", {value: "0.00", currency: "USD"}]);</script>
+<noscript>&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6015305026502&amp;amp;cd[value]=0.00&amp;amp;cd[currency]=USD&amp;amp;noscript=1"&gt;</noscript>
+<div style="display: none; visibility: hidden;">
+    <script async="async" data-banana-key="8531f81b5f2739913a5d" src="css/base.js"></script>
+</div>
+<div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.2548658321611583"><img
+        style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.7401352226734161" width="0"
+        height="0" src="css/0"><img style="width:0px; height:0px; display:none; visibility:hidden;"
+                                    id="batBeacon0.008921008091419935" width="0" height="0" src="css/0(1)"></div>
+<div id="ads"></div>
+</body>
+</html>
