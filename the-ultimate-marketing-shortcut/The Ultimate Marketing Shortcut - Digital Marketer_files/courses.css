@@ -1,0 +1,322 @@
+/* single EP page */
+
+body.course .entry-content {
+	clear: both;
+	padding-top: 20px;
+}
+body.course .section-wrapper {
+	margin-bottom: 60px;
+}
+body.course .section-wrapper h2 {
+
+}
+body.course .section-wrapper h2 .section-checkbox {
+	margin-right: 15px;
+	vertical-align: bottom;
+	color: #FFC136;
+}
+body.course .section-wrapper h2 .section-checkbox.complete {
+	color: #8ABA49;
+}
+body.course .section-wrapper .section-description {
+	margin-bottom: 20px;
+}
+body.course .step-wrapper {
+	margin-bottom: 20px;
+}
+body.course .step-wrapper h3 {
+	color: white;
+	background: #8aba49;
+	cursor: pointer;
+	margin: 0;
+	padding: 18px;
+	font-size: 22px;
+	line-height: 1.3;
+}
+body.course .step-wrapper h3:after {
+	content: '\f13a';
+	font-family: 'FontAwesome';
+	padding-left: 12px;
+}
+body.course .step-wrapper h3.active:after {
+	content: '\f139';
+}
+body.course .step-wrapper h3 .step-checkbox {
+	z-index: 999;
+  padding-right: 12px;
+}
+body.course .step-wrapper .step-description {
+	background: #f7f7f7;
+	padding: 18px;
+	border: 1px solid #e6e6e6;
+	border-top: 0px;
+	display: none;
+}
+body.course .step-wrapper .step-description img.alignleft {
+	display: block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+body.course .step-wrapper .step-description a {
+	font-weight: 900;
+}
+body.course .step-description p {
+	padding-bottom: 10px;
+}
+body.course .step-description ul {
+	margin-left: 50px;
+	list-style: disc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body.course .step-description li {
+	padding-bottom: 10px;
+}
+body.course #course-sidebar {
+	margin-top: 30px;
+}
+body.course #course-sidebar h2 {
+	color: #8aba49;
+	font-weight: 400;
+}
+body.course #course-sidebar .description {
+	font-weight: 400;
+}
+body.course #course-sidebar .course-wrapper {
+	margin-bottom: 30px;
+}
+body.course #course-sidebar .course-wrapper .course-title {
+	font-size: 21px;
+}
+body.course .youtube-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+body.course .youtube-video-container iframe,
+body.course .youtube-video-container object,
+body.course .youtube-video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* tablet view */
+@media (max-width: 1000px) {
+/*
+	div.labs-page .course-wrapper {
+		margin-right: 21px;
+		width: 29%;
+	}
+	div.labs-page .course-wrapper .course-info-wrapper {
+		padding: 0px;
+	}
+	div.labs-page .course-wrapper .course-info-wrapper p {
+		padding: 5px;
+	}
+	div.labs-page #course-categories li {
+		width: 100%;
+		margin-bottom: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	div.labs-page #course-categories li img {
+		width: 50px;
+	}
+	div.labs-page #course-categories li span {
+		position: relative;
+		top: -10px;
+		left: 10px;
+	}
+	div.labs-page #execution-plans-wrapper .lab_categories {
+		float: none;
+		background: #fafafa;
+		padding: 20px;
+		list-style: disc;
+	}
+	div.labs-page #execution-plans-wrapper .lab_categories .item {
+		float: none;
+		margin: 0 0 4px 20px;
+		list-style: disc;
+		display: list-item;
+	}
+	div.labs-page #execution-plans-wrapper .lab_categories .item:after {
+		content: '';
+	}
+*/
+}
+
+
+/* greyed out inactive */
+#execution-plans-wrapper, #whats-working-now-wrapper, #office-hours-wrapper, #toolbox-wrapper {
+	-webkit-backface-visibility: hidden;
+}
+div.labs-page#content .course-wrapper.inactive-item, div.labs-page#content .office_hour.inactive-item {
+	background-color: #eee;
+    -webkit-filter: grayscale(.9) blur(1px); -webkit-filter: grayscale(90%) blur(1px);
+    -moz-filter: grayscale(90%) blur(1px);
+	filter: gray; filter: grayscale(90%) blur(1px);
+	filter: url(../images/desaturate-blur.svg#greyscale);
+    color: #aaa;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+div.labs-page#content .course-wrapper.inactive-item:hover, div.labs-page#content .office_hour.inactive-item:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	filter: none;
+}
+div.labs-page#content .course-wrapper.inactive-item {
+    /* border-top: 8px solid #aaa; */
+}
+div.labs-page#content .course-wrapper.inactive-item .course-info-wrapper {
+	background-color: #eee;
+}
+div.labs-page#content .course-wrapper.inactive-item a.start-course, div.labs-page#content .office_hour.inactive-item a.start-course {
+    background: #aaa;
+    box-shadow: 0px 5px 0 #888;
+}
+
+/* popup */
+
+div.sorrybox {
+  background: rgba(0, 0, 0, 0.8);
+}
+div.sorrybox div.featherlight-content {
+  background: rgb(255, 255, 255);
+  margin: 0;
+  padding: 25px;
+  display: inline-block;
+  width: 80%;
+  max-width: 750px;
+}
+div.sorrybox div.featherlight-content div.laptop-gif {
+	float:left;
+	position: relative;
+	width: 30%;
+	min-height: 190px;
+	min-width: 263px;
+	background: url(../images/popup_color_laptop.gif) center center no-repeat;
+	-webkit-filter: grayscale(.9) blur(1px); -webkit-filter: grayscale(90%) blur(1px);
+    -moz-filter: grayscale(90%) blur(1px);
+	filter: gray; filter: grayscale(90%) blur(1px);
+	filter: url(../images/desaturate-blur.svg#greyscale);
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+div.sorrybox div.featherlight-content div.laptop-gif:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: url(../images/lock_icon.png) center center no-repeat;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+div.sorrybox div.featherlight-content div.laptop-gif:hover, div.sorrybox div.featherlight-content div.laptop-gif.yeshover {
+	-webkit-filter: none;
+}
+div.sorrybox div.featherlight-content div.laptop-gif:hover:after, div.sorrybox div.featherlight-content div.laptop-gif.yeshover:after {
+	background-image: url(../images/unlock_icon.png);
+}
+div.sorrybox div.featherlight-content div.sorry-content {
+	float: right;
+	width: 60%;
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	padding: 15px;
+	box-sizing: border-box;
+}
+div.sorrybox div.featherlight-content div.sorry-content h1 {
+	color: red;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+div.sorrybox div.featherlight-content div.sorry-buttons > div {
+	padding: 10px;
+}
+div.sorrybox div.featherlight-content div.sorry-buttons a {
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 2em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	padding: 40px 15px;
+	margin: 0 auto;
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.7);
+}
+div.sorrybox div.featherlight-content div.sorry-buttons a:hover {
+	box-shadow: inset 1px 1px 15px rgba(0,0,0,0.6);
+	padding: 41px 14px 39px 16px;
+	text-shadow: 1px 1px rgba(255,255,255,0.2);
+}
+div.sorrybox div.featherlight-content div.sorry-buttons a span {
+	font-size: .9em;
+}
+div.sorrybox div.featherlight-content div.sorry-buttons a.yes {
+	background: #bad532;
+}
+div.sorrybox div.featherlight-content div.sorry-buttons a.no {
+	background: #ee2424;
+}
+
+
+/* mobile view */
+@media (max-width: 640px) {
+
+	/*
+	div.labs-page .course-wrapper {
+		width: 100%;
+		margin: 0px;
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+	div.labs-page .course-wrapper .course-info-wrapper .course-title {
+		min-height: 1px;
+	}
+	div.labs-page .course-wrapper .course-info-wrapper p {
+		min-height: 1px;
+	}
+	div.labs-page .course-wrapper .course-info-wrapper {
+		width: 94%;
+		max-width: 100%;
+	}
+	div.labs-page #labs-welcome .message {
+		width: 100%;
+	}
+	div.labs-page #labs-welcome .buttons {
+		width: 100%;
+	}
+	div.labs-page #labs-welcome .buttons a.help {
+		clear: both;
+		display: block;
+	}
+	div.labs-page .course-image {
+		width: 100%;
+		height: auto;
+	}
+	body.course #course-sidebar {
+		display: none;
+	}
+
+	*/
+}

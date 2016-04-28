@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+div.optimonk-holder div,
+div.optimonk-holder iframe {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: visible;
+    max-height: none;
+}
+
+.optimonk-container {
+    background: rgba(0,0,0, 0.75);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: 2147483645;
+}
+
+.optimonk-desktop-container,
+.optimonk-mobile-container {
+    bottom: 0;
+    right: 0;
+}
+
+.optimonk-nanobar-container {
+    top: 0;
+    left: 0;
+}
+
+.optimonk-container .powered-by-optimonk {
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    z-index: 2147483646;
+    color: #fff !important;
+}
+
+.optimonk-mobile-container .powered-by-optimonk {
+    display: none;
+}
+
+.optimonk-container .powered-by-optimonk a {
+    color: #fff !important;
+    font-size: 15px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.optimonk-container .powered-by-optimonk-link:after {
+    content: 'Powered by OptiMonk™';
+}
+
+.optimonk-middle {
+    z-index: 2147483645;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.optimonk-container a.optimonk-close,
+.optimonk-container a.optimonk-close:visited {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0s ease-in;
+    transition: none;
+}
+
+.optimonk-desktop-container a.optimonk-close {
+    width: 34px;
+    height: 34px;
+    display: block;
+    background: transparent url("../images/close.png") no-repeat 0 0 !important;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 2147483647;
+    left: 0;
+    top: 0;
+    margin: -15px;
+}
+
+.optimonk-mobile-container a.optimonk-close {
+    width: 40px;
+    height: 30px;
+    right: -40px;
+    display: block;
+    position: absolute;
+    margin: 0;
+    z-index: 2147483647;
+    left: auto;
+    top: 0;
+    transition: none !important;
+    -webkit-transition: none !important;
+    background: rgba(0,0,0,.3) url("../images/close-mobile.png") center center no-repeat;
+}
+
+.optimonk-nanobar-container a.optimonk-close {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    background: transparent;
+    cursor: pointer;
+
+    position: absolute;
+    z-index: 2147483647;
+}
+
+.optimonk-nanobar-container a.optimonk-close:before {
+    content: "\00d7";
+    color: #222;
+    font-size: 24px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+}
+
+.optimonk-nanobar-container a.optimonk-close:active:before,
+.optimonk-nanobar-container a.optimonk-close:hover:before {
+    color: #333;
+    opacity: .5;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .optimonk-nanobar-container a.optimonk-close {
+        right: 15px !important;
+    }
+
+}
+
+.optimonk-container img,
+.optimonk-container a {
+    border: 0 none;
+}
+
+.optimonk-container .optimonk-iframe-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.optimonk-container iframe {
+    overflow: hidden;
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    max-width: none !important;
+    min-width: 0 !important;
+}
+
+.optimonk-container.optimonk-outer-middle form,
+.optimonk-container.optimonk-outer-middle input,
+.optimonk-container.optimonk-outer-middle select,
+.optimonk-container.optimonk-outer-middle button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
